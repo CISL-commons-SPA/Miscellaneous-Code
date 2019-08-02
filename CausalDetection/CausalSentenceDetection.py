@@ -32,6 +32,7 @@ Configurable parameter descriptions:
    addGirju: Add Girju's causal cue list to existing cue list
    sentChunkNumber: Number of sentences to part-of-speech tag at a time
    maxSents: Total Number of sentences to process (-1 -> process all sentences)
+   ranking: Use Text-Mining ranking to filter causal phrases
 """
 use_threshold = False
 WNVerbsOnly = True
@@ -44,16 +45,17 @@ UsePhraseExtraction = True
 addGirju = True
 sentChunkNumber = 100000
 maxSents = -1
-ID = "TEST"
+ranking = False
+ID = "WithoutRanking"
 
 """
     Discourse cue file, and headline files to read through
 """
 dir_path = os.path.dirname(os.path.realpath(__file__))
 cue_file = dir_path + \
-    "\\Data Files\\CausalCues_WithoutModifiers_WithoutComments.txt"
-sentenceFile = dir_path + "\\Data Files\\india-news-headlines.txt"
-sentenceFile2 = dir_path + "\\Data Files\\1million-abcnews-date-text.txt"
+    "\\Data-Files\\CausalCues_WithoutModifiers_WithoutComments.txt"
+sentenceFile = dir_path + "\\Data-Files\\india-news-headlines.txt"
+sentenceFile2 = dir_path + "\\Data-Files\\1million-abcnews-date-text.txt"
 
 # Parse Sem Eval set based on whether Sem-Eval dataset is used
 ParseSemEval = (sentenceFile == dir_path + "DataFiles\\semtest.txt")
@@ -226,20 +228,24 @@ def checkWN(entList,token):
 """
 def WNValid(entText):
     WNString = entText.replace(" ","_")
-    if (len(wn.synsets(WNString)) != 0):
+    synsets = wn.synsets(WNString)
+    if (len(synsets) != 0):
         if (debug):
             print("\t\t\tWas able to parse noun-head as wordnet synset, returning: %s" % WNString)
-        return WNString
+        return synsets[0].name().split('.')[0]
     return None
 
 """
     Parses the noun head if it is a part of a recognized named entity
+    - Returns a pair: <NE,NH>
+        NE: The unparsed named entity of the noun head (None if NH isn't a NE)
+        NH: The lemmatized noun head
 """
 def ParseNounHead(sentence,noun_head):
     if (NERTagNHs == False):
         if (debug):
             print("\tReturning Noun Head '%s' immediately since we're not NER Tagging(Parameter 'NERTagNHs' = false)\n" % (noun_head))
-        return noun_head
+        return None,WordNetLemmatizer().lemmatize(noun_head,pos="n").lower()
     if (debug):
         print("\tParsing extracted Noun-Head '%s' (incase it is a part of a named entity)" % noun_head)
         print("\tRunning Spacy NLP using both spacy's and wiki's NER model")
@@ -279,14 +285,14 @@ def ParseNounHead(sentence,noun_head):
     # Check if token is otherwise a part of a tagged entity
     if (wikiToken != None and (wikiToken.ent_iob_ == 'I' or wikiToken.ent_iob_ == 'B')):
         if (wikiToken.ent_type_ != "MISC"):
-            return wikiToken.text,wikiToken.text
+            return wikiToken.text,WordNetLemmatizer().lemmatize(wikiToken.text.replace(" ","_"),pos="n").lower()
     if (spacyToken != None and (spacyToken.ent_iob_ == 'I' or spacyToken.ent_iob_ == 'B')):
         if (NLP_NER_DICT.get(spacyToken.ent_type_)):
-            return spacyToken.text,spacyToken.text
+            return spacyToken.text,WordNetLemmatizer().lemmatize(spacyToken.text.replace(" ","_"),pos="n").lower()
         
     # Simply return the noun_head if it isn't recognized as a part of an entity
     #return noun_head,noun_head
-    return noun_head,noun_head
+    return None,WordNetLemmatizer().lemmatize(noun_head,pos="n").lower()
 
 """
     Converts POS-Tagged tree to sentence
@@ -486,7 +492,7 @@ def incrementData(choice,val):
             type_1 += 1
         else:
             type_2 += 1    
-    if total % 100000 == 0:
+    if total % sentChunkNumber == 0:
         print("Sentences Evaluated: %d " % (total),end='')
         if (ParseSemEval):
             print("\n\tAccuracy: %f (%d/%d) " % ((correct_causal+correct_noncausal)/total,correct_causal+correct_noncausal,total),end='') 
@@ -584,7 +590,7 @@ if __name__ == "__main__":
     cue_dict = readInCues(cue_file)
     # Add Girju's causal list
     if (addGirju):
-        inFile = "C:\\Users\\Korcza\\Documents\\Summer Research 2019\\SemEvalParsing\\Data Files\\girju.txt"
+        inFile = dir_path + "\\Data-Files\\girju.txt"
         use_threshold = False
         girju_dict = readInCues(inFile)
         for verb in girju_dict.keys():
@@ -634,32 +640,37 @@ if __name__ == "__main__":
                 NE1,NH1 = ParseNounHead(sentence,GrabNounHead(NPG1))
                 NE2,NH2 = ParseNounHead(sentence,GrabNounHead(NPG2))
                 if (debug):
-                    print("Sentence: %s\nCue Found: %s\nNPG1: %s\nNPG1head: %s\nNPG2: %s\nNPG2head: %s\n" % (sentence,Cue_Found,POStoString(NPG1),NE1,POStoString(NPG2),NE2),end = '')
+                    print("Sentence: %s\nCue Found: %s\nNPG1: %s\nNPG1head: %s\nNPG2: %s\nNPG2head: %s\n" % (sentence,Cue_Found,POStoString(NPG1),NE1,POStoString(NPG2),NE2),end = '')             
                 causalOutput.write("Sentence: %s\nCue Found: %s\nNPG1: %s\nNPG1head: %s\nNPG2: %s\nNPG2head: %s\n" % (sentence,Cue_Found,POStoString(NPG1),NE1,POStoString(NPG2),NE2))
-                NH1Rank = isRankOne(NH1)
-                NH2Rank = isRankOne(NH2)
-                if (NH1Rank and NH2Rank):
-                    if (debug):
-                        print("Causal Ranking: Rank One")
-                    causalOutput.write("Causal Ranking:Rank One\n")
-                    NE1 = WordNetLemmatizer().lemmatize(NE1.replace(" ","_"),pos="n").lower()
-                    NE2 = WordNetLemmatizer().lemmatize(NE2.replace(" ","_"),pos="n").lower()
-                    if (causalNetwork.get(NE1) == None):
-                        causalNetwork[NE1] = defaultdict(list)
-                    if (causalNetwork[NE1].get(NE2) == None):
-                        causalNetwork[NE1][NE2].append(0)
-                    causalNetwork[NE1][NE2][0] += 1
-                elif (NH2Rank):
-                    choice = 0
-                    if (debug):
-                        print("Causal Ranking: Rank Two")
-                    causalOutput.write("Causal Ranking:Rank Two\n")
+                if (ranking):
+                    NH1Rank = isRankOne(NH1) or NE1 != None
+                    NH2Rank = isRankOne(NH2) or NE2 != None
+                    if (NH1Rank and NH2Rank):
+                        if (debug):
+                            print("Causal Ranking: Rank One")
+                        causalOutput.write("Causal Ranking:Rank One\n")
+                        if (causalNetwork.get(NH1) == None):
+                            causalNetwork[NH1] = defaultdict(list)
+                        if (causalNetwork[NH1].get(NH2) == None):
+                            causalNetwork[NH1][NH2].append(0)
+                        causalNetwork[NH1][NH2][0] += 1
+                    elif (NH2Rank):
+                        choice = 0
+                        if (debug):
+                            print("Causal Ranking: Rank Two")
+                        causalOutput.write("Causal Ranking:Rank Two\n")
+                    else:
+                        choice = 0
+                        if (debug):
+                            print("Causal Ranking: Unranked")
+                        causalOutput.write("Causal Ranking:Unranked\n")
+                    causalOutput.write('\n')
                 else:
-                    choice = 0
-                    if (debug):
-                        print("Causal Ranking: Unranked")
-                    causalOutput.write("Causal Ranking:Unranked\n")
-                causalOutput.write('\n')
+                    if (causalNetwork.get(NH1) == None):
+                        causalNetwork[NH1] = defaultdict(list)
+                    if (causalNetwork[NH1].get(NH2) == None):
+                        causalNetwork[NH1][NH2].append(0)
+                    causalNetwork[NH1][NH2][0] += 1                    
                 
             elif (debug):
                 print("Sentence perceived to be NONCAUSAL")
