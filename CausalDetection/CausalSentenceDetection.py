@@ -34,10 +34,10 @@ Configurable parameter descriptions:
    maxSents: Total Number of sentences to process (-1 -> process all sentences)
    ranking: Use Text-Mining ranking to filter causal phrases
 """
-use_threshold = False
+use_threshold = True
 WNVerbsOnly = True
 NERTagNHs = True
-threshold = 1
+threshold = 7
 lemmatize_candidates = True
 lemmatize_cues = True
 debug = False
@@ -45,7 +45,7 @@ UsePhraseExtraction = True
 addGirju = True
 sentChunkNumber = 100000
 maxSents = -1
-ranking = False
+ranking = True
 ID = "WithoutRanking"
 
 """
@@ -53,7 +53,7 @@ ID = "WithoutRanking"
 """
 dir_path = os.path.dirname(os.path.realpath(__file__))
 cue_file = dir_path + \
-    "\\Data-Files\\CausalCues_WithoutModifiers_WithoutComments.txt"
+    "\\Data-Files\\CompleteCueList_Verb.txt"
 sentenceFile = dir_path + "\\Data-Files\\india-news-headlines.txt"
 sentenceFile2 = dir_path + "\\Data-Files\\1million-abcnews-date-text.txt"
 
@@ -219,8 +219,8 @@ def GrabNounHead(NPG):
 def checkWN(entList,token):
     for entity in entList:
         if (token in entity):
-            return WNValid(entity.text)
-    return None
+            return entity,WNValid(entity.text)
+    return None,None
 
 """
     Makes the provided entity WordNet readable before checking whether it is recognized
@@ -256,7 +256,9 @@ def ParseNounHead(sentence,noun_head):
         print("\tWiki NER Model identified: ",doc.ents)
     # Get noun head from doc token
     spacyToken = None
+    spacyEnt = None
     wikiToken = None
+    wikiEnt = None
     for token in doc:
         if (token.text == noun_head):
             spacyToken = token
@@ -268,27 +270,31 @@ def ParseNounHead(sentence,noun_head):
         print("\tChecking if noun-head can be parsed as wordnet synset...")
         print("\t\tUsing SpacyNERModel:")
     if spacyToken != None:
-        checkSpacyWordnet = checkWN(doc.ents,spacyToken)
+        spacyEnt,checkSpacyWordnet = checkWN(doc.ents,spacyToken)
         if (checkSpacyWordnet):
-            return spacyToken.text,checkSpacyWordnet
+            return spacyEnt.text,checkSpacyWordnet
         if (debug):
             print("\t\t\tWas unable to parse")
+            
+            
     if (debug):
         print("\t\tUsing WikiNERModel:")
     if wikiToken != None:
-        checkWikiWordnet = checkWN(doc_wiki.ents,wikiToken)
+        wikiEnt,checkWikiWordnet = checkWN(doc_wiki.ents,wikiToken)
         if (checkWikiWordnet):
             return wikiToken.text,checkWikiWordnet
         if (debug):
             print("\t\t\tWas unable to parse")
             print("Will instead return entity tags (if noun-head is an entity)")
+            
+            
     # Check if token is otherwise a part of a tagged entity
     if (wikiToken != None and (wikiToken.ent_iob_ == 'I' or wikiToken.ent_iob_ == 'B')):
         if (wikiToken.ent_type_ != "MISC"):
-            return wikiToken.text,WordNetLemmatizer().lemmatize(wikiToken.text.replace(" ","_"),pos="n").lower()
+            return wikiEnt.text,WordNetLemmatizer().lemmatize(wikiEnt.text.replace(" ","_"),pos="n").lower()
     if (spacyToken != None and (spacyToken.ent_iob_ == 'I' or spacyToken.ent_iob_ == 'B')):
         if (NLP_NER_DICT.get(spacyToken.ent_type_)):
-            return spacyToken.text,WordNetLemmatizer().lemmatize(spacyToken.text.replace(" ","_"),pos="n").lower()
+            return spacyEnt.text,WordNetLemmatizer().lemmatize(spacyEnt.text.replace(" ","_"),pos="n").lower()
         
     # Simply return the noun_head if it isn't recognized as a part of an entity
     #return noun_head,noun_head
@@ -589,13 +595,13 @@ if __name__ == "__main__":
     # Read in Discourse Cue List into Dictionary
     cue_dict = readInCues(cue_file)
     # Add Girju's causal list
-    if (addGirju):
-        inFile = dir_path + "\\Data-Files\\girju.txt"
-        use_threshold = False
-        girju_dict = readInCues(inFile)
-        for verb in girju_dict.keys():
-            for value in girju_dict[verb]:
-                cue_dict[verb].add(value)
+    #if (addGirju):
+        #inFile = dir_path + "\\Data-Files\\girju.txt"
+        #use_threshold = False
+        #girju_dict = readInCues(inFile)
+        #for verb in girju_dict.keys():
+            #for value in girju_dict[verb]:
+                #cue_dict[verb].add(value)
     Causal_Sentences = list()
     causalOutput.write("NEW_FILE:%s ============================================================================================ NEW_FILE:%s\n"% (sentenceFile,sentenceFile))
     causalOutput.write("Use threshold: %r\nWNVerbsOnly: %r\nthreshold: %d\nLemmatize Candidates: %r\nLemmatize Cues: %r\nDebug: %r\nUse Phrase Extraction: %r\nParse Sem Eval: %r\n\n" % (use_threshold, WNVerbsOnly, threshold, lemmatize_candidates, lemmatize_cues, debug,UsePhraseExtraction,ParseSemEval))
@@ -607,15 +613,9 @@ if __name__ == "__main__":
     sentLst = list()
     for line in readData:
         sentLst.append(word_tokenize(line.strip().replace('\n',"")))
-        if (maxSents != -1 and len(sentLst) == maxSents/2):
+        if (maxSents != -1 and len(sentLst) == maxSents):
             break
     readData.close()
-    readData = open(sentenceFile2,'r')
-    for line in readData:
-        sentLst.append(word_tokenize(line.strip().replace('\n',"")))
-        if (maxSents != -1 and len(sentLst) >= maxSents):
-            break
-
     print(len(sentLst))
     i_start = 0
     i_end = 0
@@ -655,10 +655,14 @@ if __name__ == "__main__":
                             causalNetwork[NH1][NH2].append(0)
                         causalNetwork[NH1][NH2][0] += 1
                     elif (NH2Rank):
-                        choice = 0
                         if (debug):
                             print("Causal Ranking: Rank Two")
                         causalOutput.write("Causal Ranking:Rank Two\n")
+                        if (causalNetwork.get(NH1) == None):
+                            causalNetwork[NH1] = defaultdict(list)
+                        if (causalNetwork[NH1].get(NH2) == None):
+                            causalNetwork[NH1][NH2].append(0)
+                        causalNetwork[NH1][NH2][0] += 1
                     else:
                         choice = 0
                         if (debug):

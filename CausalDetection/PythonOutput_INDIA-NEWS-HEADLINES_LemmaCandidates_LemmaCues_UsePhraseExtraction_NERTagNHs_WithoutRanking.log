@@ -1,0 +1,42 @@
+2097150
+Sentences Evaluated: 100000 
+	Causal Sentences: 0.061690 (6169/100000) Non-Causal Sentences: 0.938310 (93831/100000)
+Sentences Evaluated: 200000 
+	Causal Sentences: 0.063920 (12784/200000) Non-Causal Sentences: 0.936080 (187216/200000)
+Sentences Evaluated: 300000 
+	Causal Sentences: 0.064660 (19398/300000) Non-Causal Sentences: 0.935340 (280602/300000)
+Sentences Evaluated: 400000 
+	Causal Sentences: 0.064208 (25683/400000) Non-Causal Sentences: 0.935793 (374317/400000)
+Sentences Evaluated: 500000 
+	Causal Sentences: 0.064902 (32451/500000) Non-Causal Sentences: 0.935098 (467549/500000)
+Sentences Evaluated: 600000 
+	Causal Sentences: 0.065277 (39166/600000) Non-Causal Sentences: 0.934723 (560834/600000)
+Sentences Evaluated: 700000 
+	Causal Sentences: 0.066091 (46264/700000) Non-Causal Sentences: 0.933909 (653736/700000)
+Sentences Evaluated: 800000 
+	Causal Sentences: 0.067154 (53723/800000) Non-Causal Sentences: 0.932846 (746277/800000)
+Sentences Evaluated: 900000 
+	Causal Sentences: 0.067943 (61149/900000) Non-Causal Sentences: 0.932057 (838851/900000)
+Sentences Evaluated: 1000000 
+	Causal Sentences: 0.068861 (68861/1000000) Non-Causal Sentences: 0.931139 (931139/1000000)
+Sentences Evaluated: 1100000 
+	Causal Sentences: 0.069956 (76952/1100000) Non-Causal Sentences: 0.930044 (1023048/1100000)
+Sentences Evaluated: 1200000 
+	Causal Sentences: 0.071858 (86230/1200000) Non-Causal Sentences: 0.928142 (1113770/1200000)
+Sentences Evaluated: 1300000 
+	Causal Sentences: 0.073661 (95759/1300000) Non-Causal Sentences: 0.926339 (1204241/1300000)
+Sentences Evaluated: 1400000 
+	Causal Sentences: 0.074560 (104384/1400000) Non-Causal Sentences: 0.925440 (1295616/1400000)
+Sentences Evaluated: 1500000 
+	Causal Sentences: 0.075211 (112817/1500000) Non-Causal Sentences: 0.924789 (1387183/1500000)
+Sentences Evaluated: 1600000 
+	Causal Sentences: 0.075328 (120524/1600000) Non-Causal Sentences: 0.924673 (1479476/1600000)
+Sentences Evaluated: 1700000 
+	Causal Sentences: 0.075458 (128278/1700000) Non-Causal Sentences: 0.924542 (1571722/1700000)
+Sentences Evaluated: 1800000 
+	Causal Sentences: 0.074863 (134753/1800000) Non-Causal Sentences: 0.925137 (1665247/1800000)
+Sentences Evaluated: 1900000 
+	Causal Sentences: 0.074570 (141683/1900000) Non-Causal Sentences: 0.925430 (1758317/1900000)
+Sentences Evaluated: 2000000 
+	Causal Sentences: 0.074585 (149170/2000000) Non-Causal Sentences: 0.925415 (1850830/2000000)
+It took 5123.5902762413025 seconds to process 2097150 sentences
