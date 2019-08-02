@@ -18,16 +18,17 @@ from pprint import pprint
 from pprint import pformat
 from nltk import Tree
 
-#--------------------
-#Parameters CONFIGURE
 """
+Configurable parameter descriptions:
    use_threshold: Use Wordnet Senses to filter out "ambiguous verbs"
    WNVerbsOnly: When using threshold, limit sense count to verbs only
-   threshold = >0: When using threshold, this is the maximum number of senses allowed for a given word 
+   threshold = >0: When using threshold, this is the maximum 
+        number of senses allowed for a given word 
    lemmatize_cues: Whether or not to lemmatize discourse cues
    lemmatize_candidates: Whether or not to lemmatize candidate verbs within the sentence
    debug: print debug stuff
-   UsePhraseExtraction: Toggle whether or not to use causal phrase extraction to detect verbs
+   UsePhraseExtraction: Toggle whether or not to use causal 
+        phrase extraction to detect verbs
    addGirju: Add Girju's causal cue list to existing cue list
    sentChunkNumber: Number of sentences to part-of-speech tag at a time
    maxSents: Total Number of sentences to process (-1 -> process all sentences)
