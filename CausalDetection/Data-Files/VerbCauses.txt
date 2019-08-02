@@ -1,0 +1,1489 @@
+3.7.1 (default, Dec 10 2018, 22:54:23) [MSC v.1915 64 bit (AMD64)]
+Python Type "help", "copyright", "credits" or "license" for more information.
+[evaluate WordNetTesting.py]
+lower.v.01 ====>  [Synset('descend.v.01')]
+		move something or somebody to a lower position =====> move downward and lower, but not necessarily all the way
+lower
+		 [Synset('lower_berth.n.01')]  =====>  [] 
+
+land.v.02 ====>  [Synset('land.v.01')]
+		cause to come to the ground =====> reach or come to rest
+land
+		 [Synset('land.n.01'), Synset('land.n.02'), Synset('domain.n.02'), Synset('land.n.04'), Synset('country.n.02'), Synset('kingdom.n.01'), Synset('estate.n.02'), Synset('nation.n.02'), Synset('state.n.04'), Synset('land.n.10'), Synset('farming.n.02')]  =====>  [Synset('land.n.01'), Synset('land.n.02'), Synset('domain.n.02'), Synset('land.n.04'), Synset('country.n.02'), Synset('kingdom.n.01'), Synset('estate.n.02'), Synset('nation.n.02'), Synset('state.n.04'), Synset('land.n.10'), Synset('farming.n.02')] 
+
+produce.v.06 ====>  [Synset('appear.v.02')]
+		bring onto the market or release =====> come into sight or view
+produce
+		 [Synset('produce.n.01')]  =====>  [] 
+
+compel.v.01 ====>  [Synset('act.v.01')]
+		force somebody to do something =====> perform an action, or work out or perform (an action)
+compel
+		 []  =====>  [Synset('act.n.01'), Synset('act.n.02'), Synset('act.n.03'), Synset('act.n.04'), Synset('act.n.05')] 
+
+effect.v.01 ====>  [Synset('happen.v.01')]
+		produce =====> come to pass
+effect
+		 [Synset('consequence.n.01'), Synset('impression.n.02'), Synset('effect.n.03'), Synset('effect.n.04'), Synset('effect.n.05'), Synset('effect.n.06')]  =====>  [] 
+
+ferment.v.03 ====>  [Synset('sour.v.01')]
+		cause to undergo fermentation =====> go sour or spoil
+ferment
+		 [Synset('agitation.n.02'), Synset('ferment.n.02'), Synset('zymosis.n.01')]  =====>  [Synset('sour.n.01'), Synset('sour.n.02'), Synset('sourness.n.02')] 
+
+ignite.v.01 ====>  [Synset('burn.v.03')]
+		cause to start burning; subject to fire or great heat =====> undergo combustion
+ignite
+		 []  =====>  [Synset('burn.n.01'), Synset('tan.n.01'), Synset('burn.n.03'), Synset('burn.n.04'), Synset('burn.n.05')] 
+
+incite.v.02 ====>  [Synset('act.v.01')]
+		provoke or stir up =====> perform an action, or work out or perform (an action)
+incite
+		 []  =====>  [Synset('act.n.01'), Synset('act.n.02'), Synset('act.n.03'), Synset('act.n.04'), Synset('act.n.05')] 
+
+trip.v.04 ====>  [Synset('happen.v.01')]
+		put in motion or move to act =====> come to pass
+trip
+		 [Synset('trip.n.01'), Synset('trip.n.02'), Synset('slip.n.07'), Synset('trip.n.04'), Synset('tripper.n.04'), Synset('trip.n.06'), Synset('trip.n.07')]  =====>  [] 
+
+trip.v.04 ====>  [Synset('happen.v.01')]
+		put in motion or move to act =====> come to pass
+trip
+		 [Synset('trip.n.01'), Synset('trip.n.02'), Synset('slip.n.07'), Synset('trip.n.04'), Synset('tripper.n.04'), Synset('trip.n.06'), Synset('trip.n.07')]  =====>  [] 
+
+incite.v.02 ====>  [Synset('act.v.01')]
+		provoke or stir up =====> perform an action, or work out or perform (an action)
+incite
+		 []  =====>  [Synset('act.n.01'), Synset('act.n.02'), Synset('act.n.03'), Synset('act.n.04'), Synset('act.n.05')] 
+
+coerce.v.01 ====>  [Synset('act.v.01')]
+		to cause to do through pressure or necessity, by physical, moral or intellectual means : =====> perform an action, or work out or perform (an action)
+coerce
+		 []  =====>  [Synset('act.n.01'), Synset('act.n.02'), Synset('act.n.03'), Synset('act.n.04'), Synset('act.n.05')] 
+
+coerce.v.01 ====>  [Synset('act.v.01')]
+		to cause to do through pressure or necessity, by physical, moral or intellectual means : =====> perform an action, or work out or perform (an action)
+coerce
+		 []  =====>  [Synset('act.n.01'), Synset('act.n.02'), Synset('act.n.03'), Synset('act.n.04'), Synset('act.n.05')] 
+
+move.v.02 ====>  [Synset('move.v.03')]
+		cause to move or shift into a new position or place, both in a concrete and in an abstract sense =====> move so as to change position, perform a nontranslational motion
+move
+		 [Synset('move.n.01'), Synset('move.n.02'), Synset('motion.n.03'), Synset('motion.n.06'), Synset('move.n.05')]  =====>  [Synset('move.n.01'), Synset('move.n.02'), Synset('motion.n.03'), Synset('motion.n.06'), Synset('move.n.05')] 
+
+pension_off.v.01 ====>  [Synset('retire.v.01')]
+		let go from employment with an attractive pension =====> go into retirement; stop performing one's work or withdraw from one's position
+pension_off
+		 []  =====>  [] 
+
+convert.v.05 ====>  [Synset('convert.v.03')]
+		cause to adopt a new or different faith =====> change religious beliefs, or adopt a religious belief
+convert
+		 [Synset('convert.n.01')]  =====>  [Synset('convert.n.01')] 
+
+fire.v.02 ====>  [Synset('fire.v.05')]
+		cause to go off =====> go off or discharge
+fire
+		 [Synset('fire.n.01'), Synset('fire.n.02'), Synset('fire.n.03'), Synset('fire.n.04'), Synset('fire.n.05'), Synset('ardor.n.03'), Synset('fire.n.07'), Synset('fire.n.08'), Synset('fire.n.09')]  =====>  [Synset('fire.n.01'), Synset('fire.n.02'), Synset('fire.n.03'), Synset('fire.n.04'), Synset('fire.n.05'), Synset('ardor.n.03'), Synset('fire.n.07'), Synset('fire.n.08'), Synset('fire.n.09')] 
+
+suborn.v.03 ====>  [Synset('perjure.v.01')]
+		induce to commit perjury or give false testimony =====> knowingly tell an untruth in a legal court and render oneself guilty of perjury
+suborn
+		 []  =====>  [] 
+
+lower.v.01 ====>  [Synset('descend.v.01')]
+		move something or somebody to a lower position =====> move downward and lower, but not necessarily all the way
+lower
+		 [Synset('lower_berth.n.01')]  =====>  [] 
+
+unwrap.v.02 ====>  [Synset('break.v.46')]
+		make known to the public information that was previously known only to a few people or that was meant to be kept a secret =====> be released or become known; of news
+unwrap
+		 []  =====>  [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')] 
+
+begin.v.03 ====>  [Synset('begin.v.02')]
+		set in motion, cause to start =====> have a beginning, in a temporal, spatial, or evaluative sense
+begin
+		 [Synset('begin.n.01')]  =====>  [Synset('begin.n.01')] 
+
+ignite.v.01 ====>  [Synset('burn.v.03')]
+		cause to start burning; subject to fire or great heat =====> undergo combustion
+ignite
+		 []  =====>  [Synset('burn.n.01'), Synset('tan.n.01'), Synset('burn.n.03'), Synset('burn.n.04'), Synset('burn.n.05')] 
+
+incite.v.02 ====>  [Synset('act.v.01')]
+		provoke or stir up =====> perform an action, or work out or perform (an action)
+incite
+		 []  =====>  [Synset('act.n.01'), Synset('act.n.02'), Synset('act.n.03'), Synset('act.n.04'), Synset('act.n.05')] 
+
+ignite.v.01 ====>  [Synset('burn.v.03')]
+		cause to start burning; subject to fire or great heat =====> undergo combustion
+ignite
+		 []  =====>  [Synset('burn.n.01'), Synset('tan.n.01'), Synset('burn.n.03'), Synset('burn.n.04'), Synset('burn.n.05')] 
+
+begin.v.03 ====>  [Synset('begin.v.02')]
+		set in motion, cause to start =====> have a beginning, in a temporal, spatial, or evaluative sense
+begin
+		 [Synset('begin.n.01')]  =====>  [Synset('begin.n.01')] 
+
+start.v.08 ====>  [Synset('start.v.09')]
+		get going or set in motion =====> begin or set in motion
+start
+		 [Synset('start.n.01'), Synset('beginning.n.02'), Synset('start.n.03'), Synset('startle.n.01'), Synset('beginning.n.05'), Synset('start.n.06'), Synset('starting_signal.n.01'), Synset('start.n.08')]  =====>  [Synset('start.n.01'), Synset('beginning.n.02'), Synset('start.n.03'), Synset('startle.n.01'), Synset('beginning.n.05'), Synset('start.n.06'), Synset('starting_signal.n.01'), Synset('start.n.08')] 
+
+begin.v.03 ====>  [Synset('begin.v.02')]
+		set in motion, cause to start =====> have a beginning, in a temporal, spatial, or evaluative sense
+begin
+		 [Synset('begin.n.01')]  =====>  [Synset('begin.n.01')] 
+
+fasten.v.01 ====>  [Synset('fasten.v.02')]
+		cause to be firmly attached =====> become fixed or fastened
+fasten
+		 []  =====>  [] 
+
+produce.v.06 ====>  [Synset('appear.v.02')]
+		bring onto the market or release =====> come into sight or view
+produce
+		 [Synset('produce.n.01')]  =====>  [] 
+
+effect.v.01 ====>  [Synset('happen.v.01')]
+		produce =====> come to pass
+effect
+		 [Synset('consequence.n.01'), Synset('impression.n.02'), Synset('effect.n.03'), Synset('effect.n.04'), Synset('effect.n.05'), Synset('effect.n.06')]  =====>  [] 
+
+begin.v.03 ====>  [Synset('begin.v.02')]
+		set in motion, cause to start =====> have a beginning, in a temporal, spatial, or evaluative sense
+begin
+		 [Synset('begin.n.01')]  =====>  [Synset('begin.n.01')] 
+
+start.v.08 ====>  [Synset('start.v.09')]
+		get going or set in motion =====> begin or set in motion
+start
+		 [Synset('start.n.01'), Synset('beginning.n.02'), Synset('start.n.03'), Synset('startle.n.01'), Synset('beginning.n.05'), Synset('start.n.06'), Synset('starting_signal.n.01'), Synset('start.n.08')]  =====>  [Synset('start.n.01'), Synset('beginning.n.02'), Synset('start.n.03'), Synset('startle.n.01'), Synset('beginning.n.05'), Synset('start.n.06'), Synset('starting_signal.n.01'), Synset('start.n.08')] 
+
+circulate.v.02 ====>  [Synset('go_around.v.02')]
+		cause to become widely known =====> become widely known and passed on
+circulate
+		 []  =====>  [] 
+
+propagate.v.07 ====>  [Synset('propagate.v.08')]
+		cause to propagate, as by grafting or layering =====> multiply sexually or asexually
+propagate
+		 []  =====>  [] 
+
+trip.v.04 ====>  [Synset('happen.v.01')]
+		put in motion or move to act =====> come to pass
+trip
+		 [Synset('trip.n.01'), Synset('trip.n.02'), Synset('slip.n.07'), Synset('trip.n.04'), Synset('tripper.n.04'), Synset('trip.n.06'), Synset('trip.n.07')]  =====>  [] 
+
+trip.v.04 ====>  [Synset('happen.v.01')]
+		put in motion or move to act =====> come to pass
+trip
+		 [Synset('trip.n.01'), Synset('trip.n.02'), Synset('slip.n.07'), Synset('trip.n.04'), Synset('tripper.n.04'), Synset('trip.n.06'), Synset('trip.n.07')]  =====>  [] 
+
+trip.v.04 ====>  [Synset('happen.v.01')]
+		put in motion or move to act =====> come to pass
+trip
+		 [Synset('trip.n.01'), Synset('trip.n.02'), Synset('slip.n.07'), Synset('trip.n.04'), Synset('tripper.n.04'), Synset('trip.n.06'), Synset('trip.n.07')]  =====>  [] 
+
+assemble.v.03 ====>  [Synset('meet.v.07')]
+		get people together =====> collect in one place
+assemble
+		 []  =====>  [Synset('meet.n.01')] 
+
+mobilize.v.04 ====>  [Synset('move.v.03')]
+		cause to move around =====> move so as to change position, perform a nontranslational motion
+mobilize
+		 []  =====>  [Synset('move.n.01'), Synset('move.n.02'), Synset('motion.n.03'), Synset('motion.n.06'), Synset('move.n.05')] 
+
+resuscitate.v.01 ====>  [Synset('come_to.v.04')]
+		cause to regain consciousness =====> return to consciousness
+resuscitate
+		 []  =====>  [] 
+
+resuscitate.v.01 ====>  [Synset('come_to.v.04')]
+		cause to regain consciousness =====> return to consciousness
+resuscitate
+		 []  =====>  [] 
+
+resuscitate.v.01 ====>  [Synset('come_to.v.04')]
+		cause to regain consciousness =====> return to consciousness
+resuscitate
+		 []  =====>  [] 
+
+break_down.v.06 ====>  [Synset('crumble.v.01')]
+		cause to fall or collapse =====> fall apart
+break_down
+		 []  =====>  [] 
+
+burn.v.05 ====>  [Synset('burn.v.03')]
+		cause to burn or combust =====> undergo combustion
+burn
+		 [Synset('burn.n.01'), Synset('tan.n.01'), Synset('burn.n.03'), Synset('burn.n.04'), Synset('burn.n.05')]  =====>  [Synset('burn.n.01'), Synset('tan.n.01'), Synset('burn.n.03'), Synset('burn.n.04'), Synset('burn.n.05')] 
+
+dissolve.v.02 ====>  [Synset('dissolve.v.08')]
+		cause to go into a solution =====> pass into a solution
+dissolve
+		 [Synset('dissolve.n.01')]  =====>  [Synset('dissolve.n.01')] 
+
+kill.v.01 ====>  [Synset('die.v.01')]
+		cause to die; put to death, usually intentionally or knowingly =====> pass from physical life and lose all bodily attributes and functions necessary to sustain life
+kill
+		 [Synset('killing.n.02'), Synset('kill.n.02')]  =====>  [Synset('die.n.01'), Synset('die.n.02'), Synset('die.n.03')] 
+
+lay.v.02 ====>  [Synset('lie.v.02')]
+		put in a horizontal position =====> be lying, be prostrate; be in a horizontal position
+lay
+		 [Synset('ballad.n.01'), Synset('ballad.n.02')]  =====>  [Synset('lie.n.01'), Synset('lie.n.02'), Synset('lie.n.03')] 
+
+land.v.02 ====>  [Synset('land.v.01')]
+		cause to come to the ground =====> reach or come to rest
+land
+		 [Synset('land.n.01'), Synset('land.n.02'), Synset('domain.n.02'), Synset('land.n.04'), Synset('country.n.02'), Synset('kingdom.n.01'), Synset('estate.n.02'), Synset('nation.n.02'), Synset('state.n.04'), Synset('land.n.10'), Synset('farming.n.02')]  =====>  [Synset('land.n.01'), Synset('land.n.02'), Synset('domain.n.02'), Synset('land.n.04'), Synset('country.n.02'), Synset('kingdom.n.01'), Synset('estate.n.02'), Synset('nation.n.02'), Synset('state.n.04'), Synset('land.n.10'), Synset('farming.n.02')] 
+
+choke.v.04 ====>  [Synset('choke.v.01')]
+		constrict (someone's) throat and keep from breathing =====> breathe with great difficulty, as when experiencing a strong emotion
+choke
+		 [Synset('choke.n.01'), Synset('choke.n.02')]  =====>  [Synset('choke.n.01'), Synset('choke.n.02')] 
+
+fell.v.01 ====>  [Synset('descend.v.01')]
+		cause to fall by or as if by delivering a blow =====> move downward and lower, but not necessarily all the way
+fell
+		 [Synset('hide.n.01'), Synset('fell.n.02'), Synset('fell.n.03')]  =====>  [] 
+
+end.v.02 ====>  [Synset('end.v.01')]
+		bring to an end or halt =====> have an end, in a temporal, spatial, or quantitative sense; either spatial or metaphorical
+end
+		 [Synset('end.n.01'), Synset('end.n.02'), Synset('end.n.03'), Synset('goal.n.01'), Synset('end.n.05'), Synset('end.n.06'), Synset('end.n.07'), Synset('end.n.08'), Synset('end.n.09'), Synset('end.n.10'), Synset('end.n.11'), Synset('conclusion.n.08'), Synset('end.n.13'), Synset('end.n.14')]  =====>  [Synset('end.n.01'), Synset('end.n.02'), Synset('end.n.03'), Synset('goal.n.01'), Synset('end.n.05'), Synset('end.n.06'), Synset('end.n.07'), Synset('end.n.08'), Synset('end.n.09'), Synset('end.n.10'), Synset('end.n.11'), Synset('conclusion.n.08'), Synset('end.n.13'), Synset('end.n.14')] 
+
+freeze.v.04 ====>  [Synset('freeze.v.02')]
+		cause to freeze =====> change to ice
+freeze
+		 [Synset('freeze.n.01'), Synset('freeze.n.02'), Synset('freeze.n.03'), Synset('freeze.n.04')]  =====>  [Synset('freeze.n.01'), Synset('freeze.n.02'), Synset('freeze.n.03'), Synset('freeze.n.04')] 
+
+kill.v.01 ====>  [Synset('die.v.01')]
+		cause to die; put to death, usually intentionally or knowingly =====> pass from physical life and lose all bodily attributes and functions necessary to sustain life
+kill
+		 [Synset('killing.n.02'), Synset('kill.n.02')]  =====>  [Synset('die.n.01'), Synset('die.n.02'), Synset('die.n.03')] 
+
+overturn.v.02 ====>  [Synset('overturn.v.01')]
+		cause to overturn from an upright or normal position =====> turn from an upright or normal position
+overturn
+		 [Synset('upset.n.05'), Synset('overturn.n.02')]  =====>  [Synset('upset.n.05'), Synset('overturn.n.02')] 
+
+hush.v.02 ====>  [Synset('hush.v.01')]
+		cause to be quiet or not talk =====> become quiet or still; fall silent
+hush
+		 [Synset('hush.n.01')]  =====>  [Synset('hush.n.01')] 
+
+stop.v.05 ====>  [Synset('stop.v.01')]
+		cause to stop =====> come to a halt, stop moving
+stop
+		 [Synset('stop.n.01'), Synset('stop.n.02'), Synset('stop.n.03'), Synset('arrest.n.02'), Synset('stop.n.05'), Synset('stop_consonant.n.01'), Synset('period.n.07'), Synset('stop.n.08'), Synset('diaphragm.n.01'), Synset('catch.n.06'), Synset('blockage.n.02')]  =====>  [Synset('stop.n.01'), Synset('stop.n.02'), Synset('stop.n.03'), Synset('arrest.n.02'), Synset('stop.n.05'), Synset('stop_consonant.n.01'), Synset('period.n.07'), Synset('stop.n.08'), Synset('diaphragm.n.01'), Synset('catch.n.06'), Synset('blockage.n.02')] 
+
+end.v.02 ====>  [Synset('end.v.01')]
+		bring to an end or halt =====> have an end, in a temporal, spatial, or quantitative sense; either spatial or metaphorical
+end
+		 [Synset('end.n.01'), Synset('end.n.02'), Synset('end.n.03'), Synset('goal.n.01'), Synset('end.n.05'), Synset('end.n.06'), Synset('end.n.07'), Synset('end.n.08'), Synset('end.n.09'), Synset('end.n.10'), Synset('end.n.11'), Synset('conclusion.n.08'), Synset('end.n.13'), Synset('end.n.14')]  =====>  [Synset('end.n.01'), Synset('end.n.02'), Synset('end.n.03'), Synset('goal.n.01'), Synset('end.n.05'), Synset('end.n.06'), Synset('end.n.07'), Synset('end.n.08'), Synset('end.n.09'), Synset('end.n.10'), Synset('end.n.11'), Synset('conclusion.n.08'), Synset('end.n.13'), Synset('end.n.14')] 
+
+effect.v.01 ====>  [Synset('happen.v.01')]
+		produce =====> come to pass
+effect
+		 [Synset('consequence.n.01'), Synset('impression.n.02'), Synset('effect.n.03'), Synset('effect.n.04'), Synset('effect.n.05'), Synset('effect.n.06')]  =====>  [] 
+
+take_out.v.01 ====>  [Synset('move.v.03')]
+		cause to leave =====> move so as to change position, perform a nontranslational motion
+take_out
+		 []  =====>  [Synset('move.n.01'), Synset('move.n.02'), Synset('motion.n.03'), Synset('motion.n.06'), Synset('move.n.05')] 
+
+slacken.v.04 ====>  [Synset('slacken.v.03')]
+		make slack as by lessening tension or firmness =====> become looser or slack
+slacken
+		 []  =====>  [] 
+
+take_out.v.01 ====>  [Synset('move.v.03')]
+		cause to leave =====> move so as to change position, perform a nontranslational motion
+take_out
+		 []  =====>  [Synset('move.n.01'), Synset('move.n.02'), Synset('motion.n.03'), Synset('motion.n.06'), Synset('move.n.05')] 
+
+retire.v.10 ====>  [Synset('move_over.v.01')]
+		cause to get out =====> move in order to make room for someone for something
+retire
+		 []  =====>  [] 
+
+clink.v.01 ====>  [Synset('tinkle.v.01')]
+		make a high sound typical of glass =====> make or emit a high sound
+clink
+		 [Synset('chink.n.03'), Synset('jail.n.01')]  =====>  [Synset('ting.n.01')] 
+
+ring.v.03 ====>  [Synset('sound.v.02')]
+		make (bells) ring, often for the purposes of musical edification =====> make a certain noise or sound
+ring
+		 [Synset('ring.n.01'), Synset('ring.n.02'), Synset('hoop.n.02'), Synset('closed_chain.n.01'), Synset('gang.n.01'), Synset('ring.n.06'), Synset('ring.n.07'), Synset('ring.n.08'), Synset('band.n.12')]  =====>  [Synset('sound.n.01'), Synset('sound.n.02'), Synset('sound.n.03'), Synset('sound.n.04'), Synset('audio.n.01'), Synset('phone.n.02'), Synset('strait.n.01'), Synset('sound.n.08')] 
+
+ring.v.03 ====>  [Synset('sound.v.02')]
+		make (bells) ring, often for the purposes of musical edification =====> make a certain noise or sound
+ring
+		 [Synset('ring.n.01'), Synset('ring.n.02'), Synset('hoop.n.02'), Synset('closed_chain.n.01'), Synset('gang.n.01'), Synset('ring.n.06'), Synset('ring.n.07'), Synset('ring.n.08'), Synset('band.n.12')]  =====>  [Synset('sound.n.01'), Synset('sound.n.02'), Synset('sound.n.03'), Synset('sound.n.04'), Synset('audio.n.01'), Synset('phone.n.02'), Synset('strait.n.01'), Synset('sound.n.08')] 
+
+raise.v.15 ====>  [Synset('rise.v.15')]
+		cause to puff up with a leaven =====> increase in volume
+raise
+		 [Synset('raise.n.01'), Synset('ascent.n.01'), Synset('raise.n.03'), Synset('lift.n.12')]  =====>  [Synset('rise.n.01'), Synset('rise.n.02'), Synset('ascent.n.01'), Synset('rise.n.04'), Synset('raise.n.01'), Synset('upgrade.n.04'), Synset('lift.n.04'), Synset('emanation.n.03'), Synset('rise.n.09'), Synset('advance.n.06')] 
+
+plunge.v.05 ====>  [Synset('steep.v.01')]
+		cause to be immersed =====> devote (oneself) fully to
+plunge
+		 [Synset('dip.n.08'), Synset('plunge.n.02')]  =====>  [Synset('steep.n.01')] 
+
+mire.v.02 ====>  [Synset('grind_to_a_halt.v.01')]
+		cause to get stuck as if in a mire =====> be unable to move further
+mire
+		 [Synset('mire.n.01'), Synset('slop.n.02'), Synset('mire.n.03')]  =====>  [] 
+
+discolor.v.02 ====>  [Synset('discolor.v.03')]
+		cause to lose or change color =====> change color, often in an undesired manner
+discolor
+		 []  =====>  [] 
+
+affect.v.05 ====>  [Synset('feel.v.01')]
+		have an emotional or cognitive impact upon =====> undergo an emotional sensation or be in a particular state of mind
+affect
+		 [Synset('affect.n.01')]  =====>  [Synset('feel.n.01'), Synset('spirit.n.02'), Synset('tactile_property.n.01'), Synset('feel.n.04')] 
+
+anger.v.01 ====>  [Synset('anger.v.02')]
+		make angry =====> become angry
+anger
+		 [Synset('anger.n.01'), Synset('anger.n.02'), Synset('wrath.n.02')]  =====>  [Synset('anger.n.01'), Synset('anger.n.02'), Synset('wrath.n.02')] 
+
+cool.v.01 ====>  [Synset('cool.v.02')]
+		make cool or cooler =====> loose heat
+cool
+		 [Synset('cool.n.01'), Synset('aplomb.n.01')]  =====>  [Synset('cool.n.01'), Synset('aplomb.n.01')] 
+
+please.v.01 ====>  [Synset('like.v.02'), Synset('like.v.03')]
+		give pleasure to or be pleasing to =====> find enjoyable or agreeable
+please
+		 []  =====>  [Synset('like.n.01'), Synset('like.n.02')] 
+
+displease.v.01 ====>  [Synset('dislike.v.01')]
+		give displeasure to =====> have or feel a dislike or distaste for
+displease
+		 []  =====>  [Synset('disfavor.n.02'), Synset('dislike.n.02')] 
+
+embitter.v.01 ====>  [Synset('resent.v.01')]
+		cause to be bitter or resentful =====> feel bitter or indignant about
+embitter
+		 []  =====>  [] 
+
+enrage.v.01 ====>  [Synset('rage.v.03')]
+		put into a rage; make violently angry =====> feel intense anger
+enrage
+		 []  =====>  [Synset('fury.n.01'), Synset('rage.n.02'), Synset('rage.n.03'), Synset('rage.n.04'), Synset('fad.n.01')] 
+
+tire.v.02 ====>  [Synset('tire.v.01')]
+		exhaust or get tired through overuse or great strain or stress =====> lose interest or become bored with something or somebody
+tire
+		 [Synset('tire.n.01')]  =====>  [Synset('tire.n.01')] 
+
+fluster.v.02 ====>  [Synset('fluster.v.01')]
+		cause to be nervous or upset =====> be flustered; behave in a confused manner
+fluster
+		 [Synset('perturbation.n.04')]  =====>  [Synset('perturbation.n.04')] 
+
+fret.v.05 ====>  [Synset('fret.v.02')]
+		cause annoyance in =====> be agitated or irritated
+fret
+		 [Synset('fret.n.01'), Synset('worn_spot.n.01'), Synset('fret.n.03'), Synset('fret.n.04')]  =====>  [Synset('fret.n.01'), Synset('worn_spot.n.01'), Synset('fret.n.03'), Synset('fret.n.04')] 
+
+frighten.v.01 ====>  [Synset('fear.v.02')]
+		cause fear in =====> be afraid or scared of; be frightened of
+frighten
+		 []  =====>  [Synset('fear.n.01'), Synset('concern.n.02'), Synset('fear.n.03')] 
+
+gladden.v.01 ====>  [Synset('gladden.v.02')]
+		make glad or happy =====> become glad or happy
+gladden
+		 []  =====>  [] 
+
+grieve.v.02 ====>  [Synset('grieve.v.01')]
+		cause to feel sorrow =====> feel grief
+grieve
+		 []  =====>  [] 
+
+harden.v.02 ====>  [Synset('harden.v.01')]
+		make hard or harder =====> become hard or harder
+harden
+		 []  =====>  [] 
+
+hush.v.02 ====>  [Synset('hush.v.01')]
+		cause to be quiet or not talk =====> become quiet or still; fall silent
+hush
+		 [Synset('hush.n.01')]  =====>  [Synset('hush.n.01')] 
+
+elate.v.01 ====>  [Synset('rejoice.v.01')]
+		fill with high spirits; fill with optimism =====> feel happiness or joy
+elate
+		 []  =====>  [] 
+
+elate.v.01 ====>  [Synset('rejoice.v.01')]
+		fill with high spirits; fill with optimism =====> feel happiness or joy
+elate
+		 []  =====>  [] 
+
+lighten.v.01 ====>  [Synset('lighten.v.03')]
+		make more cheerful =====> become more cheerful
+lighten
+		 []  =====>  [] 
+
+pique.v.01 ====>  [Synset('resent.v.01')]
+		cause to feel resentment or indignation =====> feel bitter or indignant about
+pique
+		 [Synset('pique.n.01'), Synset('pique.n.02')]  =====>  [] 
+
+pain.v.02 ====>  [Synset('suffer.v.03')]
+		cause emotional anguish or make miserable =====> experience (emotional) pain
+pain
+		 [Synset('pain.n.01'), Synset('pain.n.02'), Synset('pain.n.03'), Synset('pain.n.04'), Synset('annoyance.n.04')]  =====>  [] 
+
+panic.v.02 ====>  [Synset('panic.v.01')]
+		cause sudden fear in or fill with sudden panic =====> be overcome by a sudden fear
+panic
+		 [Synset('panic.n.01'), Synset('panic.n.02')]  =====>  [Synset('panic.n.01'), Synset('panic.n.02')] 
+
+pique.v.01 ====>  [Synset('resent.v.01')]
+		cause to feel resentment or indignation =====> feel bitter or indignant about
+pique
+		 [Synset('pique.n.01'), Synset('pique.n.02')]  =====>  [] 
+
+please.v.01 ====>  [Synset('like.v.02'), Synset('like.v.03')]
+		give pleasure to or be pleasing to =====> find enjoyable or agreeable
+please
+		 []  =====>  [Synset('like.n.01'), Synset('like.n.02')] 
+
+hush.v.02 ====>  [Synset('hush.v.01')]
+		cause to be quiet or not talk =====> become quiet or still; fall silent
+hush
+		 [Synset('hush.n.01')]  =====>  [Synset('hush.n.01')] 
+
+relax.v.04 ====>  [Synset('relax.v.01')]
+		cause to feel relaxed =====> become less tense, rest, or take one's ease
+relax
+		 []  =====>  [] 
+
+sadden.v.01 ====>  [Synset('sadden.v.02')]
+		make unhappy =====> come to feel sad
+sadden
+		 []  =====>  [] 
+
+frighten.v.01 ====>  [Synset('fear.v.02')]
+		cause fear in =====> be afraid or scared of; be frightened of
+frighten
+		 []  =====>  [Synset('fear.n.01'), Synset('concern.n.02'), Synset('fear.n.03')] 
+
+hush.v.02 ====>  [Synset('hush.v.01')]
+		cause to be quiet or not talk =====> become quiet or still; fall silent
+hush
+		 [Synset('hush.n.01')]  =====>  [Synset('hush.n.01')] 
+
+tense.v.04 ====>  [Synset('tense.v.03')]
+		cause to be tense and uneasy or nervous or anxious =====> become tense, nervous, or uneasy
+tense
+		 [Synset('tense.n.01')]  =====>  [Synset('tense.n.01')] 
+
+tire.v.02 ====>  [Synset('tire.v.01')]
+		exhaust or get tired through overuse or great strain or stress =====> lose interest or become bored with something or somebody
+tire
+		 [Synset('tire.n.01')]  =====>  [Synset('tire.n.01')] 
+
+tire.v.02 ====>  [Synset('tire.v.01')]
+		exhaust or get tired through overuse or great strain or stress =====> lose interest or become bored with something or somebody
+tire
+		 [Synset('tire.n.01')]  =====>  [Synset('tire.n.01')] 
+
+elate.v.01 ====>  [Synset('rejoice.v.01')]
+		fill with high spirits; fill with optimism =====> feel happiness or joy
+elate
+		 []  =====>  [] 
+
+worry.v.03 ====>  [Synset('worry.v.01')]
+		disturb the peace of mind of; afflict with mental agitation or distress =====> be worried, concerned, anxious, troubled, or uneasy
+worry
+		 [Synset('concern.n.04'), Synset('worry.n.02')]  =====>  [Synset('concern.n.04'), Synset('worry.n.02')] 
+
+tire.v.02 ====>  [Synset('tire.v.01')]
+		exhaust or get tired through overuse or great strain or stress =====> lose interest or become bored with something or somebody
+tire
+		 [Synset('tire.n.01')]  =====>  [Synset('tire.n.01')] 
+
+worry.v.03 ====>  [Synset('worry.v.01')]
+		disturb the peace of mind of; afflict with mental agitation or distress =====> be worried, concerned, anxious, troubled, or uneasy
+worry
+		 [Synset('concern.n.04'), Synset('worry.n.02')]  =====>  [Synset('concern.n.04'), Synset('worry.n.02')] 
+
+worry.v.03 ====>  [Synset('worry.v.01')]
+		disturb the peace of mind of; afflict with mental agitation or distress =====> be worried, concerned, anxious, troubled, or uneasy
+worry
+		 [Synset('concern.n.04'), Synset('worry.n.02')]  =====>  [Synset('concern.n.04'), Synset('worry.n.02')] 
+
+choke.v.04 ====>  [Synset('choke.v.01')]
+		constrict (someone's) throat and keep from breathing =====> breathe with great difficulty, as when experiencing a strong emotion
+choke
+		 [Synset('choke.n.01'), Synset('choke.n.02')]  =====>  [Synset('choke.n.01'), Synset('choke.n.02')] 
+
+hurt.v.02 ====>  [Synset('ache.v.03')]
+		give trouble or pain to =====> be the source of pain
+hurt
+		 [Synset('injury.n.01'), Synset('distress.n.01'), Synset('suffering.n.04'), Synset('detriment.n.01'), Synset('damage.n.03')]  =====>  [Synset('ache.n.01')] 
+
+pain.v.02 ====>  [Synset('suffer.v.03')]
+		cause emotional anguish or make miserable =====> experience (emotional) pain
+pain
+		 [Synset('pain.n.01'), Synset('pain.n.02'), Synset('pain.n.03'), Synset('pain.n.04'), Synset('annoyance.n.04')]  =====>  [] 
+
+pain.v.02 ====>  [Synset('suffer.v.03')]
+		cause emotional anguish or make miserable =====> experience (emotional) pain
+pain
+		 [Synset('pain.n.01'), Synset('pain.n.02'), Synset('pain.n.03'), Synset('pain.n.04'), Synset('annoyance.n.04')]  =====>  [] 
+
+starve.v.03 ====>  [Synset('starve.v.01')]
+		deprive of food =====> be hungry; go without food
+starve
+		 []  =====>  [] 
+
+broaden.v.01 ====>  [Synset('broaden.v.04')]
+		make broader =====> become broader
+broaden
+		 []  =====>  [] 
+
+intensify.v.02 ====>  [Synset('intensify.v.03')]
+		make more intense, stronger, or more marked; , =====> become more intense
+intensify
+		 []  =====>  [] 
+
+elongate.v.01 ====>  [Synset('stretch.v.04')]
+		make long or longer by pulling and stretching =====> become longer by being stretched and pulled
+elongate
+		 []  =====>  [Synset('stretch.n.01'), Synset('reach.n.03'), Synset('stretch.n.03'), Synset('stretch.n.04'), Synset('stretch.n.05'), Synset('stretch.n.06'), Synset('stretch.n.07')] 
+
+strengthen.v.01 ====>  [Synset('strengthen.v.02')]
+		make strong or stronger =====> gain strength
+strengthen
+		 []  =====>  [] 
+
+intensify.v.02 ====>  [Synset('intensify.v.03')]
+		make more intense, stronger, or more marked; , =====> become more intense
+intensify
+		 []  =====>  [] 
+
+intensify.v.02 ====>  [Synset('intensify.v.03')]
+		make more intense, stronger, or more marked; , =====> become more intense
+intensify
+		 []  =====>  [] 
+
+lengthen.v.01 ====>  [Synset('lengthen.v.02')]
+		make longer =====> become long or longer
+lengthen
+		 []  =====>  [] 
+
+raise.v.02 ====>  [Synset('rise.v.01')]
+		raise from a lower to a higher position =====> move upward
+raise
+		 [Synset('raise.n.01'), Synset('ascent.n.01'), Synset('raise.n.03'), Synset('lift.n.12')]  =====>  [Synset('rise.n.01'), Synset('rise.n.02'), Synset('ascent.n.01'), Synset('rise.n.04'), Synset('raise.n.01'), Synset('upgrade.n.04'), Synset('lift.n.04'), Synset('emanation.n.03'), Synset('rise.n.09'), Synset('advance.n.06')] 
+
+rear.v.02 ====>  [Synset('grow_up.v.01')]
+		bring up =====> become an adult
+rear
+		 [Synset('rear.n.01'), Synset('rear.n.02'), Synset('back.n.03'), Synset('buttocks.n.01'), Synset('rear.n.05')]  =====>  [] 
+
+lift.v.03 ====>  [Synset('rise.v.01')]
+		move upwards =====> move upward
+lift
+		 [Synset('lift.n.01'), Synset('aerodynamic_lift.n.01'), Synset('elevation.n.01'), Synset('lift.n.04'), Synset('ski_tow.n.01'), Synset('lift.n.06'), Synset('lift.n.07'), Synset('elevator.n.01'), Synset('face_lift.n.01'), Synset('airlift.n.01'), Synset('lift.n.11'), Synset('lift.n.12')]  =====>  [Synset('rise.n.01'), Synset('rise.n.02'), Synset('ascent.n.01'), Synset('rise.n.04'), Synset('raise.n.01'), Synset('upgrade.n.04'), Synset('lift.n.04'), Synset('emanation.n.03'), Synset('rise.n.09'), Synset('advance.n.06')] 
+
+raise.v.15 ====>  [Synset('rise.v.15')]
+		cause to puff up with a leaven =====> increase in volume
+raise
+		 [Synset('raise.n.01'), Synset('ascent.n.01'), Synset('raise.n.03'), Synset('lift.n.12')]  =====>  [Synset('rise.n.01'), Synset('rise.n.02'), Synset('ascent.n.01'), Synset('rise.n.04'), Synset('raise.n.01'), Synset('upgrade.n.04'), Synset('lift.n.04'), Synset('emanation.n.03'), Synset('rise.n.09'), Synset('advance.n.06')] 
+
+strengthen.v.01 ====>  [Synset('strengthen.v.02')]
+		make strong or stronger =====> gain strength
+strengthen
+		 []  =====>  [] 
+
+elongate.v.01 ====>  [Synset('stretch.v.04')]
+		make long or longer by pulling and stretching =====> become longer by being stretched and pulled
+elongate
+		 []  =====>  [Synset('stretch.n.01'), Synset('reach.n.03'), Synset('stretch.n.03'), Synset('stretch.n.04'), Synset('stretch.n.05'), Synset('stretch.n.06'), Synset('stretch.n.07')] 
+
+swell.v.06 ====>  [Synset('swell.v.03')]
+		cause to become swollen =====> expand abnormally
+swell
+		 [Synset('swell.n.01'), Synset('swell.n.02'), Synset('swell.n.03'), Synset('dandy.n.01')]  =====>  [Synset('swell.n.01'), Synset('swell.n.02'), Synset('swell.n.03'), Synset('dandy.n.01')] 
+
+widen.v.03 ====>  [Synset('widen.v.01')]
+		make wider =====> become broader or wider or more extensive
+widen
+		 []  =====>  [] 
+
+blur.v.05 ====>  [Synset('blur.v.06')]
+		make dim or indistinct =====> become vague or indistinct
+blur
+		 [Synset('blur.n.01')]  =====>  [Synset('blur.n.01')] 
+
+lighten.v.01 ====>  [Synset('lighten.v.03')]
+		make more cheerful =====> become more cheerful
+lighten
+		 []  =====>  [] 
+
+loosen.v.01 ====>  [Synset('loosen.v.07')]
+		make loose or looser =====> become loose or looser or less tight
+loosen
+		 []  =====>  [] 
+
+lower.v.01 ====>  [Synset('descend.v.01')]
+		move something or somebody to a lower position =====> move downward and lower, but not necessarily all the way
+lower
+		 [Synset('lower_berth.n.01')]  =====>  [] 
+
+shrink.v.03 ====>  [Synset('shrink.v.04')]
+		reduce in size; reduce physically =====> become smaller or draw together
+shrink
+		 [Synset('psychiatrist.n.01')]  =====>  [Synset('psychiatrist.n.01')] 
+
+shorten.v.01 ====>  [Synset('shorten.v.04')]
+		make shorter than originally intended; reduce or retrench in length or duration =====> become short or shorter
+shorten
+		 []  =====>  [] 
+
+shrink.v.03 ====>  [Synset('shrink.v.04')]
+		reduce in size; reduce physically =====> become smaller or draw together
+shrink
+		 [Synset('psychiatrist.n.01')]  =====>  [Synset('psychiatrist.n.01')] 
+
+slacken.v.04 ====>  [Synset('slacken.v.03')]
+		make slack as by lessening tension or firmness =====> become looser or slack
+slacken
+		 []  =====>  [] 
+
+thin.v.02 ====>  [Synset('thin.v.01')]
+		make thin or thinner =====> lose thickness; become thin or thinner
+thin
+		 []  =====>  [] 
+
+weaken.v.01 ====>  [Synset('weaken.v.02')]
+		lessen the strength of =====> become weaker
+weaken
+		 []  =====>  [] 
+
+age.v.03 ====>  [Synset('senesce.v.01')]
+		make older =====> grow old or older
+age
+		 [Synset('age.n.01'), Synset('historic_period.n.01'), Synset('age.n.03'), Synset('long_time.n.01'), Synset('old_age.n.01')]  =====>  [] 
+
+better.v.02 ====>  [Synset('better.v.03')]
+		to make better =====> get better
+better
+		 [Synset('better.n.01'), Synset('bettor.n.01'), Synset('better.n.03'), Synset('better.n.04')]  =====>  [Synset('better.n.01'), Synset('bettor.n.01'), Synset('better.n.03'), Synset('better.n.04')] 
+
+better.v.02 ====>  [Synset('better.v.03')]
+		to make better =====> get better
+better
+		 [Synset('better.n.01'), Synset('bettor.n.01'), Synset('better.n.03'), Synset('better.n.04')]  =====>  [Synset('better.n.01'), Synset('bettor.n.01'), Synset('better.n.03'), Synset('better.n.04')] 
+
+strengthen.v.01 ====>  [Synset('strengthen.v.02')]
+		make strong or stronger =====> gain strength
+strengthen
+		 []  =====>  [] 
+
+better.v.02 ====>  [Synset('better.v.03')]
+		to make better =====> get better
+better
+		 [Synset('better.n.01'), Synset('bettor.n.01'), Synset('better.n.03'), Synset('better.n.04')]  =====>  [Synset('better.n.01'), Synset('bettor.n.01'), Synset('better.n.03'), Synset('better.n.04')] 
+
+develop.v.12 ====>  [Synset('develop.v.10'), Synset('grow.v.02')]
+		cause to grow and differentiate in ways conforming to its natural development =====> grow, progress, unfold, or evolve through a process of evolution, natural growth, differentiation, or a conducive environment
+develop
+		 []  =====>  [] 
+
+raise.v.02 ====>  [Synset('rise.v.01')]
+		raise from a lower to a higher position =====> move upward
+raise
+		 [Synset('raise.n.01'), Synset('ascent.n.01'), Synset('raise.n.03'), Synset('lift.n.12')]  =====>  [Synset('rise.n.01'), Synset('rise.n.02'), Synset('ascent.n.01'), Synset('rise.n.04'), Synset('raise.n.01'), Synset('upgrade.n.04'), Synset('lift.n.04'), Synset('emanation.n.03'), Synset('rise.n.09'), Synset('advance.n.06')] 
+
+raise.v.02 ====>  [Synset('rise.v.01')]
+		raise from a lower to a higher position =====> move upward
+raise
+		 [Synset('raise.n.01'), Synset('ascent.n.01'), Synset('raise.n.03'), Synset('lift.n.12')]  =====>  [Synset('rise.n.01'), Synset('rise.n.02'), Synset('ascent.n.01'), Synset('rise.n.04'), Synset('raise.n.01'), Synset('upgrade.n.04'), Synset('lift.n.04'), Synset('emanation.n.03'), Synset('rise.n.09'), Synset('advance.n.06')] 
+
+better.v.02 ====>  [Synset('better.v.03')]
+		to make better =====> get better
+better
+		 [Synset('better.n.01'), Synset('bettor.n.01'), Synset('better.n.03'), Synset('better.n.04')]  =====>  [Synset('better.n.01'), Synset('bettor.n.01'), Synset('better.n.03'), Synset('better.n.04')] 
+
+intensify.v.02 ====>  [Synset('intensify.v.03')]
+		make more intense, stronger, or more marked; , =====> become more intense
+intensify
+		 []  =====>  [] 
+
+mire.v.02 ====>  [Synset('grind_to_a_halt.v.01')]
+		cause to get stuck as if in a mire =====> be unable to move further
+mire
+		 [Synset('mire.n.01'), Synset('slop.n.02'), Synset('mire.n.03')]  =====>  [] 
+
+overturn.v.02 ====>  [Synset('overturn.v.01')]
+		cause to overturn from an upright or normal position =====> turn from an upright or normal position
+overturn
+		 [Synset('upset.n.05'), Synset('overturn.n.02')]  =====>  [Synset('upset.n.05'), Synset('overturn.n.02')] 
+
+hurt.v.02 ====>  [Synset('ache.v.03')]
+		give trouble or pain to =====> be the source of pain
+hurt
+		 [Synset('injury.n.01'), Synset('distress.n.01'), Synset('suffering.n.04'), Synset('detriment.n.01'), Synset('damage.n.03')]  =====>  [Synset('ache.n.01')] 
+
+pain.v.02 ====>  [Synset('suffer.v.03')]
+		cause emotional anguish or make miserable =====> experience (emotional) pain
+pain
+		 [Synset('pain.n.01'), Synset('pain.n.02'), Synset('pain.n.03'), Synset('pain.n.04'), Synset('annoyance.n.04')]  =====>  [] 
+
+close.v.01 ====>  [Synset('close.v.02')]
+		move so that an opening or passage is obstructed; make shut =====> become closed
+close
+		 [Synset('stopping_point.n.01'), Synset('conclusion.n.08'), Synset('finale.n.03')]  =====>  [Synset('stopping_point.n.01'), Synset('conclusion.n.08'), Synset('finale.n.03')] 
+
+back.v.04 ====>  [Synset('back.v.02')]
+		cause to travel backward =====> travel backward
+back
+		 [Synset('back.n.01'), Synset('rear.n.05'), Synset('back.n.03'), Synset('back.n.04'), Synset('spinal_column.n.01'), Synset('binding.n.05'), Synset('back.n.07'), Synset('back.n.08'), Synset('back.n.09')]  =====>  [Synset('back.n.01'), Synset('rear.n.05'), Synset('back.n.03'), Synset('back.n.04'), Synset('spinal_column.n.01'), Synset('binding.n.05'), Synset('back.n.07'), Synset('back.n.08'), Synset('back.n.09')] 
+
+bounce.v.06 ====>  [Synset('bounce.v.04')]
+		refuse to accept and send back =====> come back after being refused
+bounce
+		 [Synset('bounce.n.01'), Synset('leap.n.01'), Synset('bounce.n.03')]  =====>  [Synset('bounce.n.01'), Synset('leap.n.01'), Synset('bounce.n.03')] 
+
+bounce.v.06 ====>  [Synset('bounce.v.04')]
+		refuse to accept and send back =====> come back after being refused
+bounce
+		 [Synset('bounce.n.01'), Synset('leap.n.01'), Synset('bounce.n.03')]  =====>  [Synset('bounce.n.01'), Synset('leap.n.01'), Synset('bounce.n.03')] 
+
+circulate.v.02 ====>  [Synset('go_around.v.02')]
+		cause to become widely known =====> become widely known and passed on
+circulate
+		 []  =====>  [] 
+
+circulate.v.06 ====>  [Synset('circulate.v.04')]
+		cause to move in a circuit or system =====> move through a space, circuit or system, returning to the starting point
+circulate
+		 []  =====>  [] 
+
+mobilize.v.04 ====>  [Synset('move.v.03')]
+		cause to move around =====> move so as to change position, perform a nontranslational motion
+mobilize
+		 []  =====>  [Synset('move.n.01'), Synset('move.n.02'), Synset('motion.n.03'), Synset('motion.n.06'), Synset('move.n.05')] 
+
+convulse.v.01 ====>  [Synset('convulse.v.02')]
+		make someone convulse with laughter =====> be overcome with laughter
+convulse
+		 []  =====>  [] 
+
+fly.v.05 ====>  [Synset('float.v.01')]
+		cause to fly or float =====> be in motion due to some air or water current
+fly
+		 [Synset('fly.n.01'), Synset('tent-fly.n.01'), Synset('fly.n.03'), Synset('fly.n.04'), Synset('fly.n.05')]  =====>  [Synset('float.n.01'), Synset('float.n.02'), Synset('ice-cream_soda.n.01'), Synset('float.n.04'), Synset('float.n.05'), Synset('float.n.06'), Synset('air_bladder.n.01')] 
+
+rush.v.03 ====>  [Synset('rush.v.04')]
+		urge to an unnatural speed =====> act or move at high speed
+rush
+		 [Synset('haste.n.02'), Synset('rush.n.02'), Synset('rush.n.03'), Synset('rush.n.04'), Synset('bang.n.04'), Synset('rush.n.06'), Synset('rush.n.07')]  =====>  [Synset('haste.n.02'), Synset('rush.n.02'), Synset('rush.n.03'), Synset('rush.n.04'), Synset('bang.n.04'), Synset('rush.n.06'), Synset('rush.n.07')] 
+
+loosen.v.01 ====>  [Synset('loosen.v.07')]
+		make loose or looser =====> become loose or looser or less tight
+loosen
+		 []  =====>  [] 
+
+move.v.02 ====>  [Synset('move.v.03')]
+		cause to move or shift into a new position or place, both in a concrete and in an abstract sense =====> move so as to change position, perform a nontranslational motion
+move
+		 [Synset('move.n.01'), Synset('move.n.02'), Synset('motion.n.03'), Synset('motion.n.06'), Synset('move.n.05')]  =====>  [Synset('move.n.01'), Synset('move.n.02'), Synset('motion.n.03'), Synset('motion.n.06'), Synset('move.n.05')] 
+
+affect.v.05 ====>  [Synset('feel.v.01')]
+		have an emotional or cognitive impact upon =====> undergo an emotional sensation or be in a particular state of mind
+affect
+		 [Synset('affect.n.01')]  =====>  [Synset('feel.n.01'), Synset('spirit.n.02'), Synset('tactile_property.n.01'), Synset('feel.n.04')] 
+
+overturn.v.02 ====>  [Synset('overturn.v.01')]
+		cause to overturn from an upright or normal position =====> turn from an upright or normal position
+overturn
+		 [Synset('upset.n.05'), Synset('overturn.n.02')]  =====>  [Synset('upset.n.05'), Synset('overturn.n.02')] 
+
+project.v.04 ====>  [Synset('appear.v.02')]
+		project on a screen =====> come into sight or view
+project
+		 [Synset('undertaking.n.01'), Synset('project.n.02')]  =====>  [] 
+
+slacken.v.04 ====>  [Synset('slacken.v.03')]
+		make slack as by lessening tension or firmness =====> become looser or slack
+slacken
+		 []  =====>  [] 
+
+rotate.v.04 ====>  [Synset('revolve.v.01')]
+		cause to turn on an axis or center =====> turn on or around an axis or a center
+rotate
+		 []  =====>  [] 
+
+air.v.03 ====>  [Synset('air.v.02')]
+		broadcast over the airwaves, as in radio or television =====> be broadcast
+air
+		 [Synset('air.n.01'), Synset('air.n.02'), Synset('air.n.03'), Synset('breeze.n.01'), Synset('atmosphere.n.03'), Synset('air.n.06'), Synset('tune.n.01'), Synset('air.n.08'), Synset('air_travel.n.01')]  =====>  [Synset('air.n.01'), Synset('air.n.02'), Synset('air.n.03'), Synset('breeze.n.01'), Synset('atmosphere.n.03'), Synset('air.n.06'), Synset('tune.n.01'), Synset('air.n.08'), Synset('air_travel.n.01')] 
+
+stampede.v.01 ====>  [Synset('stampede.v.04')]
+		cause to run in panic =====> run away in a stampede
+stampede
+		 [Synset('stampede.n.01'), Synset('stampede.n.02')]  =====>  [Synset('stampede.n.01'), Synset('stampede.n.02')] 
+
+stampede.v.02 ====>  [Synset('stampede.v.03')]
+		cause a group or mass of people to act on an impulse or hurriedly and impulsively =====> act, usually en masse, hurriedly or on an impulse
+stampede
+		 [Synset('stampede.n.01'), Synset('stampede.n.02')]  =====>  [Synset('stampede.n.01'), Synset('stampede.n.02')] 
+
+transfer.v.05 ====>  [Synset('change_hands.v.01')]
+		cause to change ownership =====> be transferred to another owner
+transfer
+		 [Synset('transportation.n.02'), Synset('transfer.n.02'), Synset('transfer.n.03'), Synset('transfer.n.04'), Synset('transfer.n.05'), Synset('transfer.n.06')]  =====>  [] 
+
+transfer.v.05 ====>  [Synset('change_hands.v.01')]
+		cause to change ownership =====> be transferred to another owner
+transfer
+		 [Synset('transportation.n.02'), Synset('transfer.n.02'), Synset('transfer.n.03'), Synset('transfer.n.04'), Synset('transfer.n.05'), Synset('transfer.n.06')]  =====>  [] 
+
+overturn.v.02 ====>  [Synset('overturn.v.01')]
+		cause to overturn from an upright or normal position =====> turn from an upright or normal position
+overturn
+		 [Synset('upset.n.05'), Synset('overturn.n.02')]  =====>  [Synset('upset.n.05'), Synset('overturn.n.02')] 
+
+lower.v.01 ====>  [Synset('descend.v.01')]
+		move something or somebody to a lower position =====> move downward and lower, but not necessarily all the way
+lower
+		 [Synset('lower_berth.n.01')]  =====>  [] 
+
+land.v.02 ====>  [Synset('land.v.01')]
+		cause to come to the ground =====> reach or come to rest
+land
+		 [Synset('land.n.01'), Synset('land.n.02'), Synset('domain.n.02'), Synset('land.n.04'), Synset('country.n.02'), Synset('kingdom.n.01'), Synset('estate.n.02'), Synset('nation.n.02'), Synset('state.n.04'), Synset('land.n.10'), Synset('farming.n.02')]  =====>  [Synset('land.n.01'), Synset('land.n.02'), Synset('domain.n.02'), Synset('land.n.04'), Synset('country.n.02'), Synset('kingdom.n.01'), Synset('estate.n.02'), Synset('nation.n.02'), Synset('state.n.04'), Synset('land.n.10'), Synset('farming.n.02')] 
+
+fell.v.01 ====>  [Synset('descend.v.01')]
+		cause to fall by or as if by delivering a blow =====> move downward and lower, but not necessarily all the way
+fell
+		 [Synset('hide.n.01'), Synset('fell.n.02'), Synset('fell.n.03')]  =====>  [] 
+
+fell.v.01 ====>  [Synset('descend.v.01')]
+		cause to fall by or as if by delivering a blow =====> move downward and lower, but not necessarily all the way
+fell
+		 [Synset('hide.n.01'), Synset('fell.n.02'), Synset('fell.n.03')]  =====>  [] 
+
+fell.v.01 ====>  [Synset('descend.v.01')]
+		cause to fall by or as if by delivering a blow =====> move downward and lower, but not necessarily all the way
+fell
+		 [Synset('hide.n.01'), Synset('fell.n.02'), Synset('fell.n.03')]  =====>  [] 
+
+lower.v.01 ====>  [Synset('descend.v.01')]
+		move something or somebody to a lower position =====> move downward and lower, but not necessarily all the way
+lower
+		 [Synset('lower_berth.n.01')]  =====>  [] 
+
+lower.v.01 ====>  [Synset('descend.v.01')]
+		move something or somebody to a lower position =====> move downward and lower, but not necessarily all the way
+lower
+		 [Synset('lower_berth.n.01')]  =====>  [] 
+
+lower.v.01 ====>  [Synset('descend.v.01')]
+		move something or somebody to a lower position =====> move downward and lower, but not necessarily all the way
+lower
+		 [Synset('lower_berth.n.01')]  =====>  [] 
+
+trip.v.02 ====>  [Synset('stumble.v.02')]
+		cause to stumble =====> miss a step and fall or nearly fall
+trip
+		 [Synset('trip.n.01'), Synset('trip.n.02'), Synset('slip.n.07'), Synset('trip.n.04'), Synset('tripper.n.04'), Synset('trip.n.06'), Synset('trip.n.07')]  =====>  [Synset('lurch.n.01'), Synset('trip.n.07')] 
+
+travel.v.03 ====>  [Synset('travel.v.01')]
+		make a trip for pleasure =====> change location; move, travel, or proceed, also metaphorically
+travel
+		 [Synset('travel.n.01'), Synset('change_of_location.n.01'), Synset('locomotion.n.02')]  =====>  [Synset('travel.n.01'), Synset('change_of_location.n.01'), Synset('locomotion.n.02')] 
+
+trip.v.04 ====>  [Synset('happen.v.01')]
+		put in motion or move to act =====> come to pass
+trip
+		 [Synset('trip.n.01'), Synset('trip.n.02'), Synset('slip.n.07'), Synset('trip.n.04'), Synset('tripper.n.04'), Synset('trip.n.06'), Synset('trip.n.07')]  =====>  [] 
+
+overturn.v.02 ====>  [Synset('overturn.v.01')]
+		cause to overturn from an upright or normal position =====> turn from an upright or normal position
+overturn
+		 [Synset('upset.n.05'), Synset('overturn.n.02')]  =====>  [Synset('upset.n.05'), Synset('overturn.n.02')] 
+
+raise.v.02 ====>  [Synset('rise.v.01')]
+		raise from a lower to a higher position =====> move upward
+raise
+		 [Synset('raise.n.01'), Synset('ascent.n.01'), Synset('raise.n.03'), Synset('lift.n.12')]  =====>  [Synset('rise.n.01'), Synset('rise.n.02'), Synset('ascent.n.01'), Synset('rise.n.04'), Synset('raise.n.01'), Synset('upgrade.n.04'), Synset('lift.n.04'), Synset('emanation.n.03'), Synset('rise.n.09'), Synset('advance.n.06')] 
+
+lift.v.03 ====>  [Synset('rise.v.01')]
+		move upwards =====> move upward
+lift
+		 [Synset('lift.n.01'), Synset('aerodynamic_lift.n.01'), Synset('elevation.n.01'), Synset('lift.n.04'), Synset('ski_tow.n.01'), Synset('lift.n.06'), Synset('lift.n.07'), Synset('elevator.n.01'), Synset('face_lift.n.01'), Synset('airlift.n.01'), Synset('lift.n.11'), Synset('lift.n.12')]  =====>  [Synset('rise.n.01'), Synset('rise.n.02'), Synset('ascent.n.01'), Synset('rise.n.04'), Synset('raise.n.01'), Synset('upgrade.n.04'), Synset('lift.n.04'), Synset('emanation.n.03'), Synset('rise.n.09'), Synset('advance.n.06')] 
+
+raise.v.02 ====>  [Synset('rise.v.01')]
+		raise from a lower to a higher position =====> move upward
+raise
+		 [Synset('raise.n.01'), Synset('ascent.n.01'), Synset('raise.n.03'), Synset('lift.n.12')]  =====>  [Synset('rise.n.01'), Synset('rise.n.02'), Synset('ascent.n.01'), Synset('rise.n.04'), Synset('raise.n.01'), Synset('upgrade.n.04'), Synset('lift.n.04'), Synset('emanation.n.03'), Synset('rise.n.09'), Synset('advance.n.06')] 
+
+rear.v.02 ====>  [Synset('grow_up.v.01')]
+		bring up =====> become an adult
+rear
+		 [Synset('rear.n.01'), Synset('rear.n.02'), Synset('back.n.03'), Synset('buttocks.n.01'), Synset('rear.n.05')]  =====>  [] 
+
+lift.v.03 ====>  [Synset('rise.v.01')]
+		move upwards =====> move upward
+lift
+		 [Synset('lift.n.01'), Synset('aerodynamic_lift.n.01'), Synset('elevation.n.01'), Synset('lift.n.04'), Synset('ski_tow.n.01'), Synset('lift.n.06'), Synset('lift.n.07'), Synset('elevator.n.01'), Synset('face_lift.n.01'), Synset('airlift.n.01'), Synset('lift.n.11'), Synset('lift.n.12')]  =====>  [Synset('rise.n.01'), Synset('rise.n.02'), Synset('ascent.n.01'), Synset('rise.n.04'), Synset('raise.n.01'), Synset('upgrade.n.04'), Synset('lift.n.04'), Synset('emanation.n.03'), Synset('rise.n.09'), Synset('advance.n.06')] 
+
+raise.v.15 ====>  [Synset('rise.v.15')]
+		cause to puff up with a leaven =====> increase in volume
+raise
+		 [Synset('raise.n.01'), Synset('ascent.n.01'), Synset('raise.n.03'), Synset('lift.n.12')]  =====>  [Synset('rise.n.01'), Synset('rise.n.02'), Synset('ascent.n.01'), Synset('rise.n.04'), Synset('raise.n.01'), Synset('upgrade.n.04'), Synset('lift.n.04'), Synset('emanation.n.03'), Synset('rise.n.09'), Synset('advance.n.06')] 
+
+stand.v.10 ====>  [Synset('stand.v.01')]
+		put into an upright position =====> be standing; be upright
+stand
+		 [Synset('base.n.08'), Synset('stand.n.02'), Synset('stand.n.03'), Synset('stand.n.04'), Synset('rack.n.05'), Synset('stand.n.06'), Synset('point_of_view.n.01'), Synset('stall.n.03'), Synset('stand.n.09'), Synset('stand.n.10'), Synset('bandstand.n.01'), Synset('stand.n.12')]  =====>  [Synset('base.n.08'), Synset('stand.n.02'), Synset('stand.n.03'), Synset('stand.n.04'), Synset('rack.n.05'), Synset('stand.n.06'), Synset('point_of_view.n.01'), Synset('stall.n.03'), Synset('stand.n.09'), Synset('stand.n.10'), Synset('bandstand.n.01'), Synset('stand.n.12')] 
+
+elate.v.01 ====>  [Synset('rejoice.v.01')]
+		fill with high spirits; fill with optimism =====> feel happiness or joy
+elate
+		 []  =====>  [] 
+
+land.v.02 ====>  [Synset('land.v.01')]
+		cause to come to the ground =====> reach or come to rest
+land
+		 [Synset('land.n.01'), Synset('land.n.02'), Synset('domain.n.02'), Synset('land.n.04'), Synset('country.n.02'), Synset('kingdom.n.01'), Synset('estate.n.02'), Synset('nation.n.02'), Synset('state.n.04'), Synset('land.n.10'), Synset('farming.n.02')]  =====>  [Synset('land.n.01'), Synset('land.n.02'), Synset('domain.n.02'), Synset('land.n.04'), Synset('country.n.02'), Synset('kingdom.n.01'), Synset('estate.n.02'), Synset('nation.n.02'), Synset('state.n.04'), Synset('land.n.10'), Synset('farming.n.02')] 
+
+hang.v.02 ====>  [Synset('hang.v.01')]
+		cause to be hanging or suspended =====> be suspended or hanging
+hang
+		 [Synset('bent.n.04'), Synset('hang.n.02'), Synset('hang.n.03')]  =====>  [Synset('bent.n.04'), Synset('hang.n.02'), Synset('hang.n.03')] 
+
+dovetail.v.01 ====>  [Synset('fit.v.02')]
+		fit together tightly, as if by means of a dovetail =====> be the right size or shape; fit correctly or as desired
+dovetail
+		 [Synset('dovetail.n.01')]  =====>  [Synset('fit.n.01'), Synset('paroxysm.n.01'), Synset('fit.n.03'), Synset('burst.n.03')] 
+
+join.v.02 ====>  [Synset('join.v.04')]
+		cause to become joined or linked =====> make contact or come together
+join
+		 [Synset('articulation.n.02'), Synset('union.n.08')]  =====>  [Synset('articulation.n.02'), Synset('union.n.08')] 
+
+fasten.v.01 ====>  [Synset('fasten.v.02')]
+		cause to be firmly attached =====> become fixed or fastened
+fasten
+		 []  =====>  [] 
+
+fasten.v.01 ====>  [Synset('fasten.v.02')]
+		cause to be firmly attached =====> become fixed or fastened
+fasten
+		 []  =====>  [] 
+
+loosen.v.01 ====>  [Synset('loosen.v.07')]
+		make loose or looser =====> become loose or looser or less tight
+loosen
+		 []  =====>  [] 
+
+unfasten.v.01 ====>  [Synset('unfasten.v.02')]
+		cause to become undone =====> become undone or untied
+unfasten
+		 []  =====>  [] 
+
+relax.v.04 ====>  [Synset('relax.v.01')]
+		cause to feel relaxed =====> become less tense, rest, or take one's ease
+relax
+		 []  =====>  [] 
+
+open.v.01 ====>  [Synset('open.v.03')]
+		cause to open or to become open =====> become open
+open
+		 [Synset('open.n.01'), Synset('outdoors.n.01'), Synset('open.n.03'), Synset('open.n.04')]  =====>  [Synset('open.n.01'), Synset('outdoors.n.01'), Synset('open.n.03'), Synset('open.n.04')] 
+
+open.v.06 ====>  [Synset('open.v.07')]
+		make available =====> become available
+open
+		 [Synset('open.n.01'), Synset('outdoors.n.01'), Synset('open.n.03'), Synset('open.n.04')]  =====>  [Synset('open.n.01'), Synset('outdoors.n.01'), Synset('open.n.03'), Synset('open.n.04')] 
+
+open.v.01 ====>  [Synset('open.v.03')]
+		cause to open or to become open =====> become open
+open
+		 [Synset('open.n.01'), Synset('outdoors.n.01'), Synset('open.n.03'), Synset('open.n.04')]  =====>  [Synset('open.n.01'), Synset('outdoors.n.01'), Synset('open.n.03'), Synset('open.n.04')] 
+
+open.v.06 ====>  [Synset('open.v.07')]
+		make available =====> become available
+open
+		 [Synset('open.n.01'), Synset('outdoors.n.01'), Synset('open.n.03'), Synset('open.n.04')]  =====>  [Synset('open.n.01'), Synset('outdoors.n.01'), Synset('open.n.03'), Synset('open.n.04')] 
+
+break.v.04 ====>  [Synset('break.v.42')]
+		ruin completely =====> go to pieces
+break
+		 [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')]  =====>  [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')] 
+
+break_in.v.06 ====>  [Synset('break.v.22')]
+		make submissive, obedient, or useful =====> be broken in
+break_in
+		 []  =====>  [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')] 
+
+unwrap.v.02 ====>  [Synset('break.v.46')]
+		make known to the public information that was previously known only to a few people or that was meant to be kept a secret =====> be released or become known; of news
+unwrap
+		 []  =====>  [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')] 
+
+break.v.25 ====>  [Synset('break.v.26')]
+		cause to give up a habit =====> give up
+break
+		 [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')]  =====>  [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')] 
+
+circulate.v.02 ====>  [Synset('go_around.v.02')]
+		cause to become widely known =====> become widely known and passed on
+circulate
+		 []  =====>  [] 
+
+dissolve.v.02 ====>  [Synset('dissolve.v.08')]
+		cause to go into a solution =====> pass into a solution
+dissolve
+		 [Synset('dissolve.n.01')]  =====>  [Synset('dissolve.n.01')] 
+
+separate.v.02 ====>  [Synset('separate.v.12')]
+		force, take, or pull apart =====> come apart
+separate
+		 [Synset('offprint.n.01'), Synset('separate.n.02')]  =====>  [Synset('offprint.n.01'), Synset('separate.n.02')] 
+
+explode.v.01 ====>  [Synset('detonate.v.02')]
+		cause to burst with a violent release of energy =====> burst and release energy as through a violent chemical or physical reaction
+explode
+		 []  =====>  [] 
+
+leach.v.01 ====>  [Synset('leach.v.02')]
+		cause (a liquid) to leach or percolate =====> permeate or penetrate gradually
+leach
+		 [Synset('leach.n.01')]  =====>  [Synset('leach.n.01')] 
+
+separate.v.02 ====>  [Synset('separate.v.12')]
+		force, take, or pull apart =====> come apart
+separate
+		 [Synset('offprint.n.01'), Synset('separate.n.02')]  =====>  [Synset('offprint.n.01'), Synset('separate.n.02')] 
+
+separate.v.02 ====>  [Synset('separate.v.12')]
+		force, take, or pull apart =====> come apart
+separate
+		 [Synset('offprint.n.01'), Synset('separate.n.02')]  =====>  [Synset('offprint.n.01'), Synset('separate.n.02')] 
+
+separate.v.02 ====>  [Synset('separate.v.12')]
+		force, take, or pull apart =====> come apart
+separate
+		 [Synset('offprint.n.01'), Synset('separate.n.02')]  =====>  [Synset('offprint.n.01'), Synset('separate.n.02')] 
+
+separate.v.02 ====>  [Synset('separate.v.12')]
+		force, take, or pull apart =====> come apart
+separate
+		 [Synset('offprint.n.01'), Synset('separate.n.02')]  =====>  [Synset('offprint.n.01'), Synset('separate.n.02')] 
+
+trip.v.04 ====>  [Synset('happen.v.01')]
+		put in motion or move to act =====> come to pass
+trip
+		 [Synset('trip.n.01'), Synset('trip.n.02'), Synset('slip.n.07'), Synset('trip.n.04'), Synset('tripper.n.04'), Synset('trip.n.06'), Synset('trip.n.07')]  =====>  [] 
+
+break.v.04 ====>  [Synset('break.v.42')]
+		ruin completely =====> go to pieces
+break
+		 [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')]  =====>  [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')] 
+
+break_in.v.06 ====>  [Synset('break.v.22')]
+		make submissive, obedient, or useful =====> be broken in
+break_in
+		 []  =====>  [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')] 
+
+unwrap.v.02 ====>  [Synset('break.v.46')]
+		make known to the public information that was previously known only to a few people or that was meant to be kept a secret =====> be released or become known; of news
+unwrap
+		 []  =====>  [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')] 
+
+break.v.25 ====>  [Synset('break.v.26')]
+		cause to give up a habit =====> give up
+break
+		 [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')]  =====>  [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')] 
+
+collapse.v.05 ====>  [Synset('collapse.v.01')]
+		cause to burst =====> break down, literally or metaphorically
+collapse
+		 [Synset('collapse.n.01'), Synset('collapse.n.02'), Synset('flop.n.04'), Synset('crash.n.03')]  =====>  [Synset('collapse.n.01'), Synset('collapse.n.02'), Synset('flop.n.04'), Synset('crash.n.03')] 
+
+break.v.04 ====>  [Synset('break.v.42')]
+		ruin completely =====> go to pieces
+break
+		 [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')]  =====>  [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')] 
+
+crack.v.12 ====>  [Synset('crack.v.13')]
+		reduce (petroleum) to a simpler compound by cracking =====> break into simpler molecules by means of heat
+crack
+		 [Synset('crack.n.01'), Synset('gap.n.03'), Synset('crevice.n.01'), Synset('crack.n.04'), Synset('shot.n.04'), Synset('wisecrack.n.01'), Synset('crack.n.07'), Synset('crack.n.08'), Synset('crack.n.09'), Synset('fracture.n.03')]  =====>  [Synset('crack.n.01'), Synset('gap.n.03'), Synset('crevice.n.01'), Synset('crack.n.04'), Synset('shot.n.04'), Synset('wisecrack.n.01'), Synset('crack.n.07'), Synset('crack.n.08'), Synset('crack.n.09'), Synset('fracture.n.03')] 
+
+crack.v.12 ====>  [Synset('crack.v.13')]
+		reduce (petroleum) to a simpler compound by cracking =====> break into simpler molecules by means of heat
+crack
+		 [Synset('crack.n.01'), Synset('gap.n.03'), Synset('crevice.n.01'), Synset('crack.n.04'), Synset('shot.n.04'), Synset('wisecrack.n.01'), Synset('crack.n.07'), Synset('crack.n.08'), Synset('crack.n.09'), Synset('fracture.n.03')]  =====>  [Synset('crack.n.01'), Synset('gap.n.03'), Synset('crevice.n.01'), Synset('crack.n.04'), Synset('shot.n.04'), Synset('wisecrack.n.01'), Synset('crack.n.07'), Synset('crack.n.08'), Synset('crack.n.09'), Synset('fracture.n.03')] 
+
+crash.v.09 ====>  [Synset('crash.v.05')]
+		cause to crash =====> break violently or noisily; smash
+crash
+		 [Synset('clang.n.01'), Synset('crash.n.02'), Synset('crash.n.03'), Synset('crash.n.04'), Synset('crash.n.05')]  =====>  [Synset('clang.n.01'), Synset('crash.n.02'), Synset('crash.n.03'), Synset('crash.n.04'), Synset('crash.n.05')] 
+
+fasten.v.01 ====>  [Synset('fasten.v.02')]
+		cause to be firmly attached =====> become fixed or fastened
+fasten
+		 []  =====>  [] 
+
+assemble.v.03 ====>  [Synset('meet.v.07')]
+		get people together =====> collect in one place
+assemble
+		 []  =====>  [Synset('meet.n.01')] 
+
+change.v.01 ====>  [Synset('change.v.02')]
+		cause to change; make different; cause a transformation =====> undergo a change; become different in essence; losing one's or its original nature
+change
+		 [Synset('change.n.01'), Synset('change.n.02'), Synset('change.n.03'), Synset('change.n.04'), Synset('change.n.05'), Synset('change.n.06'), Synset('change.n.07'), Synset('change.n.08'), Synset('change.n.09'), Synset('variety.n.06')]  =====>  [Synset('change.n.01'), Synset('change.n.02'), Synset('change.n.03'), Synset('change.n.04'), Synset('change.n.05'), Synset('change.n.06'), Synset('change.n.07'), Synset('change.n.08'), Synset('change.n.09'), Synset('variety.n.06')] 
+
+crystallize.v.03 ====>  [Synset('crystallize.v.04')]
+		cause to form crystals or assume crystalline form =====> assume crystalline form; become crystallized
+crystallize
+		 []  =====>  [] 
+
+emulsify.v.01 ====>  [Synset('emulsify.v.02')]
+		cause to become an emulsion; make into an emulsion =====> form into or become an emulsion
+emulsify
+		 []  =====>  [] 
+
+ferment.v.03 ====>  [Synset('sour.v.01')]
+		cause to undergo fermentation =====> go sour or spoil
+ferment
+		 [Synset('agitation.n.02'), Synset('ferment.n.02'), Synset('zymosis.n.01')]  =====>  [Synset('sour.n.01'), Synset('sour.n.02'), Synset('sourness.n.02')] 
+
+freeze.v.04 ====>  [Synset('freeze.v.02')]
+		cause to freeze =====> change to ice
+freeze
+		 [Synset('freeze.n.01'), Synset('freeze.n.02'), Synset('freeze.n.03'), Synset('freeze.n.04')]  =====>  [Synset('freeze.n.01'), Synset('freeze.n.02'), Synset('freeze.n.03'), Synset('freeze.n.04')] 
+
+solidify.v.01 ====>  [Synset('solidify.v.02')]
+		make solid or more solid; cause to solidify =====> become solid
+solidify
+		 []  =====>  [] 
+
+change.v.01 ====>  [Synset('change.v.02')]
+		cause to change; make different; cause a transformation =====> undergo a change; become different in essence; losing one's or its original nature
+change
+		 [Synset('change.n.01'), Synset('change.n.02'), Synset('change.n.03'), Synset('change.n.04'), Synset('change.n.05'), Synset('change.n.06'), Synset('change.n.07'), Synset('change.n.08'), Synset('change.n.09'), Synset('variety.n.06')]  =====>  [Synset('change.n.01'), Synset('change.n.02'), Synset('change.n.03'), Synset('change.n.04'), Synset('change.n.05'), Synset('change.n.06'), Synset('change.n.07'), Synset('change.n.08'), Synset('change.n.09'), Synset('variety.n.06')] 
+
+better.v.02 ====>  [Synset('better.v.03')]
+		to make better =====> get better
+better
+		 [Synset('better.n.01'), Synset('bettor.n.01'), Synset('better.n.03'), Synset('better.n.04')]  =====>  [Synset('better.n.01'), Synset('bettor.n.01'), Synset('better.n.03'), Synset('better.n.04')] 
+
+change.v.01 ====>  [Synset('change.v.02')]
+		cause to change; make different; cause a transformation =====> undergo a change; become different in essence; losing one's or its original nature
+change
+		 [Synset('change.n.01'), Synset('change.n.02'), Synset('change.n.03'), Synset('change.n.04'), Synset('change.n.05'), Synset('change.n.06'), Synset('change.n.07'), Synset('change.n.08'), Synset('change.n.09'), Synset('variety.n.06')]  =====>  [Synset('change.n.01'), Synset('change.n.02'), Synset('change.n.03'), Synset('change.n.04'), Synset('change.n.05'), Synset('change.n.06'), Synset('change.n.07'), Synset('change.n.08'), Synset('change.n.09'), Synset('variety.n.06')] 
+
+change.v.01 ====>  [Synset('change.v.02')]
+		cause to change; make different; cause a transformation =====> undergo a change; become different in essence; losing one's or its original nature
+change
+		 [Synset('change.n.01'), Synset('change.n.02'), Synset('change.n.03'), Synset('change.n.04'), Synset('change.n.05'), Synset('change.n.06'), Synset('change.n.07'), Synset('change.n.08'), Synset('change.n.09'), Synset('variety.n.06')]  =====>  [Synset('change.n.01'), Synset('change.n.02'), Synset('change.n.03'), Synset('change.n.04'), Synset('change.n.05'), Synset('change.n.06'), Synset('change.n.07'), Synset('change.n.08'), Synset('change.n.09'), Synset('variety.n.06')] 
+
+unwrap.v.02 ====>  [Synset('break.v.46')]
+		make known to the public information that was previously known only to a few people or that was meant to be kept a secret =====> be released or become known; of news
+unwrap
+		 []  =====>  [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')] 
+
+unwrap.v.02 ====>  [Synset('break.v.46')]
+		make known to the public information that was previously known only to a few people or that was meant to be kept a secret =====> be released or become known; of news
+unwrap
+		 []  =====>  [Synset('interruption.n.02'), Synset('break.n.02'), Synset('fault.n.04'), Synset('rupture.n.02'), Synset('respite.n.02'), Synset('breakage.n.03'), Synset('pause.n.01'), Synset('fracture.n.01'), Synset('break.n.09'), Synset('break.n.10'), Synset('break.n.11'), Synset('break.n.12'), Synset('break.n.13'), Synset('break.n.14'), Synset('open_frame.n.01'), Synset('break.n.16')] 
+
+blur.v.05 ====>  [Synset('blur.v.06')]
+		make dim or indistinct =====> become vague or indistinct
+blur
+		 [Synset('blur.n.01')]  =====>  [Synset('blur.n.01')] 
+
+age.v.03 ====>  [Synset('senesce.v.01')]
+		make older =====> grow old or older
+age
+		 [Synset('age.n.01'), Synset('historic_period.n.01'), Synset('age.n.03'), Synset('long_time.n.01'), Synset('old_age.n.01')]  =====>  [] 
+
+cool.v.01 ====>  [Synset('cool.v.02')]
+		make cool or cooler =====> loose heat
+cool
+		 [Synset('cool.n.01'), Synset('aplomb.n.01')]  =====>  [Synset('cool.n.01'), Synset('aplomb.n.01')] 
+
+cool.v.01 ====>  [Synset('cool.v.02')]
+		make cool or cooler =====> loose heat
+cool
+		 [Synset('cool.n.01'), Synset('aplomb.n.01')]  =====>  [Synset('cool.n.01'), Synset('aplomb.n.01')] 
+
+darken.v.03 ====>  [Synset('darken.v.01')]
+		make dark or darker =====> become dark or darker
+darken
+		 []  =====>  [] 
+
+drench.v.02 ====>  [Synset('drink.v.01')]
+		force to drink =====> take in liquids
+drench
+		 []  =====>  [Synset('drink.n.01'), Synset('drink.n.02'), Synset('beverage.n.01'), Synset('drink.n.04'), Synset('swallow.n.02')] 
+
+dry.v.01 ====>  [Synset('dry.v.02')]
+		remove the moisture from and make dry =====> become dry or drier
+dry
+		 [Synset('dry.n.01')]  =====>  [Synset('dry.n.01')] 
+
+dry.v.01 ====>  [Synset('dry.v.02')]
+		remove the moisture from and make dry =====> become dry or drier
+dry
+		 [Synset('dry.n.01')]  =====>  [Synset('dry.n.01')] 
+
+empty.v.01 ====>  [Synset('empty.v.02')]
+		make void or empty of contents =====> become empty or void of its content
+empty
+		 [Synset('empty.n.01')]  =====>  [Synset('empty.n.01')] 
+
+harden.v.02 ====>  [Synset('harden.v.01')]
+		make hard or harder =====> become hard or harder
+harden
+		 []  =====>  [] 
+
+heat.v.01 ====>  [Synset('heat.v.04')]
+		make hot or hotter =====> gain heat or get hot
+heat
+		 [Synset('heat.n.01'), Synset('hotness.n.01'), Synset('heat.n.03'), Synset('heat.n.04'), Synset('estrus.n.01'), Synset('heat.n.06'), Synset('heating_system.n.01')]  =====>  [Synset('heat.n.01'), Synset('hotness.n.01'), Synset('heat.n.03'), Synset('heat.n.04'), Synset('estrus.n.01'), Synset('heat.n.06'), Synset('heating_system.n.01')] 
+
+cheer.v.03 ====>  [Synset('cheer.v.04')]
+		cause (somebody) to feel happier or more cheerful =====> become cheerful
+cheer
+		 [Synset('cheer.n.01'), Synset('cheerfulness.n.01')]  =====>  [Synset('cheer.n.01'), Synset('cheerfulness.n.01')] 
+
+lighten.v.01 ====>  [Synset('lighten.v.03')]
+		make more cheerful =====> become more cheerful
+lighten
+		 []  =====>  [] 
+
+loosen.v.01 ====>  [Synset('loosen.v.07')]
+		make loose or looser =====> become loose or looser or less tight
+loosen
+		 []  =====>  [] 
+
+waste.v.08 ====>  [Synset('emaciate.v.02')]
+		cause to grow thin or weak =====> grow weak and thin or waste away physically
+waste
+		 [Synset('waste.n.01'), Synset('waste.n.02'), Synset('thriftlessness.n.01'), Synset('barren.n.01'), Synset('waste.n.05')]  =====>  [] 
+
+ripen.v.01 ====>  [Synset('ripen.v.02')]
+		cause to ripen or develop fully =====> grow ripe
+ripen
+		 []  =====>  [] 
+
+mellow.v.01 ====>  [Synset('mellow.v.03')]
+		soften, make mellow =====> make or grow (more) mellow
+mellow
+		 []  =====>  [] 
+
+ripen.v.01 ====>  [Synset('ripen.v.02')]
+		cause to ripen or develop fully =====> grow ripe
+ripen
+		 []  =====>  [] 
+
+sensitize.v.02 ====>  [Synset('feel.v.03')]
+		cause to sense; make sensitive =====> perceive by a physical sensation, e.g., coming from the skin or muscles
+sensitize
+		 []  =====>  [Synset('feel.n.01'), Synset('spirit.n.02'), Synset('tactile_property.n.01'), Synset('feel.n.04')] 
+
+sharpen.v.02 ====>  [Synset('sharpen.v.03')]
+		make crisp or more crisp and precise =====> become sharp or sharper
+sharpen
+		 []  =====>  [] 
+
+focus.v.05 ====>  [Synset('focus.v.04')]
+		put (an image) into focus =====> become focussed or come into focus
+focus
+		 [Synset('focus.n.01'), Synset('focus.n.02'), Synset('focus.n.03'), Synset('focus.n.04'), Synset('stress.n.03'), Synset('focus.n.06'), Synset('focus.n.07')]  =====>  [Synset('focus.n.01'), Synset('focus.n.02'), Synset('focus.n.03'), Synset('focus.n.04'), Synset('stress.n.03'), Synset('focus.n.06'), Synset('focus.n.07')] 
+
+soften.v.06 ====>  [Synset('soften.v.07')]
+		make soft or softer =====> become soft or softer
+soften
+		 []  =====>  [] 
+
+stiffen.v.02 ====>  [Synset('stiffen.v.01')]
+		make stiff or stiffer =====> become stiff or stiffer
+stiffen
+		 []  =====>  [] 
+
+hush.v.02 ====>  [Synset('hush.v.01')]
+		cause to be quiet or not talk =====> become quiet or still; fall silent
+hush
+		 [Synset('hush.n.01')]  =====>  [Synset('hush.n.01')] 
+
+thicken.v.01 ====>  [Synset('thicken.v.02')]
+		make thick or thicker =====> become thick or thicker
+thicken
+		 []  =====>  [] 
+
+boil.v.03 ====>  [Synset('boil.v.01')]
+		bring to, or maintain at, the boiling point =====> come to the boiling point and change from a liquid to vapor
+boil
+		 [Synset('boil.n.01'), Synset('boiling_point.n.01')]  =====>  [Synset('boil.n.01'), Synset('boiling_point.n.01')] 
+
+circulate.v.02 ====>  [Synset('go_around.v.02')]
+		cause to become widely known =====> become widely known and passed on
+circulate
+		 []  =====>  [] 
+
+circulate.v.06 ====>  [Synset('circulate.v.04')]
+		cause to move in a circuit or system =====> move through a space, circuit or system, returning to the starting point
+circulate
+		 []  =====>  [] 
+
+mobilize.v.04 ====>  [Synset('move.v.03')]
+		cause to move around =====> move so as to change position, perform a nontranslational motion
+mobilize
+		 []  =====>  [Synset('move.n.01'), Synset('move.n.02'), Synset('motion.n.03'), Synset('motion.n.06'), Synset('move.n.05')] 
+
+cross-fertilize.v.02 ====>  [Synset('cross-fertilize.v.01')]
+		cause to undergo cross-fertilization =====> undergo cross-fertilization; become fertile
+cross-fertilize
+		 []  =====>  [] 
+
+decide.v.03 ====>  [Synset('decide.v.01')]
+		cause to decide =====> reach, make, or come to a decision about something
+decide
+		 []  =====>  [] 
+
+explode.v.01 ====>  [Synset('detonate.v.02')]
+		cause to burst with a violent release of energy =====> burst and release energy as through a violent chemical or physical reaction
+explode
+		 []  =====>  [] 
+
+circulate.v.02 ====>  [Synset('go_around.v.02')]
+		cause to become widely known =====> become widely known and passed on
+circulate
+		 []  =====>  [] 
+
+separate.v.02 ====>  [Synset('separate.v.12')]
+		force, take, or pull apart =====> come apart
+separate
+		 [Synset('offprint.n.01'), Synset('separate.n.02')]  =====>  [Synset('offprint.n.01'), Synset('separate.n.02')] 
+
+dovetail.v.01 ====>  [Synset('fit.v.02')]
+		fit together tightly, as if by means of a dovetail =====> be the right size or shape; fit correctly or as desired
+dovetail
+		 [Synset('dovetail.n.01')]  =====>  [Synset('fit.n.01'), Synset('paroxysm.n.01'), Synset('fit.n.03'), Synset('burst.n.03')] 
+
+exercise.v.03 ====>  [Synset('exercise.v.04')]
+		give a workout to =====> do physical exercise
+exercise
+		 [Synset('exercise.n.01'), Synset('use.n.01'), Synset('exercise.n.03'), Synset('exercise.n.04'), Synset('exercise.n.05')]  =====>  [Synset('exercise.n.01'), Synset('use.n.01'), Synset('exercise.n.03'), Synset('exercise.n.04'), Synset('exercise.n.05')] 
+
+season.v.01 ====>  [Synset('taste.v.01')]
+		lend flavor to =====> have flavor; taste of something
+season
+		 [Synset('season.n.01'), Synset('season.n.02'), Synset('season.n.03')]  =====>  [Synset('taste.n.01'), Synset('preference.n.01'), Synset('taste.n.03'), Synset('taste.n.04'), Synset('taste.n.05'), Synset('taste.n.06'), Synset('taste.n.07')] 
+
+focus.v.05 ====>  [Synset('focus.v.04')]
+		put (an image) into focus =====> become focussed or come into focus
+focus
+		 [Synset('focus.n.01'), Synset('focus.n.02'), Synset('focus.n.03'), Synset('focus.n.04'), Synset('stress.n.03'), Synset('focus.n.06'), Synset('focus.n.07')]  =====>  [Synset('focus.n.01'), Synset('focus.n.02'), Synset('focus.n.03'), Synset('focus.n.04'), Synset('stress.n.03'), Synset('focus.n.06'), Synset('focus.n.07')] 
+
+ground.v.05 ====>  [Synset('ground.v.06')]
+		bring to the ground =====> hit or reach the ground
+ground
+		 [Synset('land.n.04'), Synset('reason.n.01'), Synset('earth.n.02'), Synset('footing.n.02'), Synset('ground.n.05'), Synset('background.n.02'), Synset('land.n.02'), Synset('ground.n.08'), Synset('ground.n.09'), Synset('ground.n.10'), Synset('flat_coat.n.01')]  =====>  [Synset('land.n.04'), Synset('reason.n.01'), Synset('earth.n.02'), Synset('footing.n.02'), Synset('ground.n.05'), Synset('background.n.02'), Synset('land.n.02'), Synset('ground.n.08'), Synset('ground.n.09'), Synset('ground.n.10'), Synset('flat_coat.n.01')] 
+
+ignite.v.01 ====>  [Synset('burn.v.03')]
+		cause to start burning; subject to fire or great heat =====> undergo combustion
+ignite
+		 []  =====>  [Synset('burn.n.01'), Synset('tan.n.01'), Synset('burn.n.03'), Synset('burn.n.04'), Synset('burn.n.05')] 
+
+percolate.v.04 ====>  [Synset('percolate.v.05')]
+		cause (a solvent) to pass through a permeable substance in order to extract a soluble constituent =====> pass through
+percolate
+		 [Synset('percolate.n.01')]  =====>  [Synset('percolate.n.01')] 
+
+project.v.04 ====>  [Synset('appear.v.02')]
+		project on a screen =====> come into sight or view
+project
+		 [Synset('undertaking.n.01'), Synset('project.n.02')]  =====>  [] 
+
+retire.v.06 ====>  [Synset('retire.v.01')]
+		make (someone) retire =====> go into retirement; stop performing one's work or withdraw from one's position
+retire
+		 []  =====>  [] 
+
+retire.v.10 ====>  [Synset('move_over.v.01')]
+		cause to get out =====> move in order to make room for someone for something
+retire
+		 []  =====>  [] 
+
+sink.v.02 ====>  [Synset('sink.v.04')]
+		cause to sink =====> go under,
+sink
+		 [Synset('sink.n.01'), Synset('sink.n.02'), Synset('sinkhole.n.01'), Synset('cesspool.n.01')]  =====>  [Synset('sink.n.01'), Synset('sink.n.02'), Synset('sinkhole.n.01'), Synset('cesspool.n.01')] 
+
+circulate.v.02 ====>  [Synset('go_around.v.02')]
+		cause to become widely known =====> become widely known and passed on
+circulate
+		 []  =====>  [] 
+
+elongate.v.01 ====>  [Synset('stretch.v.04')]
+		make long or longer by pulling and stretching =====> become longer by being stretched and pulled
+elongate
+		 []  =====>  [Synset('stretch.n.01'), Synset('reach.n.03'), Synset('stretch.n.03'), Synset('stretch.n.04'), Synset('stretch.n.05'), Synset('stretch.n.06'), Synset('stretch.n.07')] 
+
+trip.v.02 ====>  [Synset('stumble.v.02')]
+		cause to stumble =====> miss a step and fall or nearly fall
+trip
+		 [Synset('trip.n.01'), Synset('trip.n.02'), Synset('slip.n.07'), Synset('trip.n.04'), Synset('tripper.n.04'), Synset('trip.n.06'), Synset('trip.n.07')]  =====>  [Synset('lurch.n.01'), Synset('trip.n.07')] 
+
+travel.v.03 ====>  [Synset('travel.v.01')]
+		make a trip for pleasure =====> change location; move, travel, or proceed, also metaphorically
+travel
+		 [Synset('travel.n.01'), Synset('change_of_location.n.01'), Synset('locomotion.n.02')]  =====>  [Synset('travel.n.01'), Synset('change_of_location.n.01'), Synset('locomotion.n.02')] 
+
+trip.v.04 ====>  [Synset('happen.v.01')]
+		put in motion or move to act =====> come to pass
+trip
+		 [Synset('trip.n.01'), Synset('trip.n.02'), Synset('slip.n.07'), Synset('trip.n.04'), Synset('tripper.n.04'), Synset('trip.n.06'), Synset('trip.n.07')]  =====>  [] 
+
+unionize.v.01 ====>  [Synset('unionize.v.02')]
+		recruit for a union or organize into a union =====> form or join a union
+unionize
+		 []  =====>  [] 
+
+waste.v.08 ====>  [Synset('emaciate.v.02')]
+		cause to grow thin or weak =====> grow weak and thin or waste away physically
+waste
+		 [Synset('waste.n.01'), Synset('waste.n.02'), Synset('thriftlessness.n.01'), Synset('barren.n.01'), Synset('waste.n.05')]  =====>  [] 
+
+exercise.v.03 ====>  [Synset('exercise.v.04')]
+		give a workout to =====> do physical exercise
+exercise
+		 [Synset('exercise.n.01'), Synset('use.n.01'), Synset('exercise.n.03'), Synset('exercise.n.04'), Synset('exercise.n.05')]  =====>  [Synset('exercise.n.01'), Synset('use.n.01'), Synset('exercise.n.03'), Synset('exercise.n.04'), Synset('exercise.n.05')] 
+
+work.v.12 ====>  [Synset('work.v.02')]
+		cause to work =====> be employed
+work
+		 [Synset('work.n.01'), Synset('work.n.02'), Synset('employment.n.02'), Synset('study.n.02'), Synset('work.n.05'), Synset('workplace.n.01'), Synset('oeuvre.n.01')]  =====>  [Synset('work.n.01'), Synset('work.n.02'), Synset('employment.n.02'), Synset('study.n.02'), Synset('work.n.05'), Synset('workplace.n.01'), Synset('oeuvre.n.01')] 
+
+ferment.v.03 ====>  [Synset('sour.v.01')]
+		cause to undergo fermentation =====> go sour or spoil
+ferment
+		 [Synset('agitation.n.02'), Synset('ferment.n.02'), Synset('zymosis.n.01')]  =====>  [Synset('sour.n.01'), Synset('sour.n.02'), Synset('sourness.n.02')] 
+
+297
